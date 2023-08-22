@@ -47,7 +47,7 @@ const flowPrincipal = addKeyword(['vMozo'])
     })
     .addAnswer(
         [
-            'Elija la opcion deseada'
+            'Elija la opción deseada'
         ],
         {
             capture:true
