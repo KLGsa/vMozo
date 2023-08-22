@@ -3,7 +3,7 @@ const { addKeyword } = require('@bot-whatsapp/bot')
 const {addProps,getProp,enviarPedido,esNumeroPositivo} = require('./auxPedidos.js')
 
 const flujoPedido = addKeyword(['2','pedir'])
-.addAnswer('Cuantos comensales son ?',
+.addAnswer('¿Cuántas personas van a ordenar ?',
 {
     capture: true
 },

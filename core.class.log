@@ -1,17 +1,16 @@
 [handleMsg]:  {
   key: {
-    remoteJid: '5493515924253@s.whatsapp.net',
+    remoteJid: '5493512275549@s.whatsapp.net',
     fromMe: false,
-    id: '5450DA4C862DA8FB8C8E18D519D62D6D',
+    id: '3EB010536908C14387D5BE',
     participant: undefined
   },
-  messageTimestamp: 1692479208,
-  pushName: 'Martín',
+  messageTimestamp: 1692715907,
+  pushName: 'guardiasiges',
   broadcast: false,
   message: Message {
     extendedTextMessage: ExtendedTextMessage {
-      text: '( 3 ) Hola vMozo quiero ordenar',
-      previewType: 0,
+      text: '( 2 ) vMozo',
       contextInfo: [ContextInfo],
       inviteLinkGroupTypeV2: 0
     },
@@ -20,186 +19,150 @@
       deviceListMetadataVersion: 2
     }
   },
-  body: '( 3 ) Hola vMozo quiero ordenar',
-  from: '5493515924253'
+  body: '( 2 ) vMozo',
+  from: '5493512275549'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5493515924253@s.whatsapp.net',
+    remoteJid: '5493512275549@s.whatsapp.net',
     fromMe: false,
-    id: 'AEF2FFB86A6975EBA5C5525B790437AD',
+    id: '3EB09CB565969B08BEE0A1',
     participant: undefined
   },
-  messageTimestamp: 1692479233,
-  pushName: 'Martín',
+  messageTimestamp: 1692715909,
+  pushName: 'guardiasiges',
   broadcast: false,
   message: Message {
-    conversation: '1',
+    extendedTextMessage: ExtendedTextMessage {
+      text: '6',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '6',
+  from: '5493512275549'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493512275549@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB00AC8E71B024148327A',
+    participant: undefined
+  },
+  messageTimestamp: 1692715911,
+  pushName: 'guardiasiges',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'si',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'si',
+  from: '5493512275549'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493512275549@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB062F3402C8222E958BE',
+    participant: undefined
+  },
+  messageTimestamp: 1692715913,
+  pushName: 'guardiasiges',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '1',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
   body: '1',
-  from: '5493515924253'
+  from: '5493512275549'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5493515924253@s.whatsapp.net',
+    remoteJid: '5493512275549@s.whatsapp.net',
     fromMe: false,
-    id: '812C2F1BCF81C33235F6BCBCA13958E8',
+    id: '3EB01953D4CEFB9319183D',
     participant: undefined
   },
-  messageTimestamp: 1692479255,
-  pushName: 'Martín',
+  messageTimestamp: 1692715914,
+  pushName: 'guardiasiges',
   broadcast: false,
   message: Message {
-    conversation: 'Pedir',
+    extendedTextMessage: ExtendedTextMessage {
+      text: '1',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Pedir',
-  from: '5493515924253'
+  body: '1',
+  from: '5493512275549'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5493515924253@s.whatsapp.net',
+    remoteJid: '5493512275549@s.whatsapp.net',
     fromMe: false,
-    id: 'B29AB3E7CC4F10FCC019CDBE0B64A595',
+    id: '3EB02829336B225B953920',
     participant: undefined
   },
-  messageTimestamp: 1692479262,
-  pushName: 'Martín',
+  messageTimestamp: 1692715915,
+  pushName: 'guardiasiges',
   broadcast: false,
   message: Message {
-    conversation: '2',
+    extendedTextMessage: ExtendedTextMessage {
+      text: '1',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: '2',
-  from: '5493515924253'
+  body: '1',
+  from: '5493512275549'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5493515924253@s.whatsapp.net',
+    remoteJid: '5493512275549@s.whatsapp.net',
     fromMe: false,
-    id: '79DDE812A9C39E37FD2FBD6E617A477D',
+    id: '3EB0BD064BEDA8FE86DDAA',
     participant: undefined
   },
-  messageTimestamp: 1692479273,
-  pushName: 'Martín',
+  messageTimestamp: 1692715917,
+  pushName: 'guardiasiges',
   broadcast: false,
   message: Message {
-    conversation: 'Milanesa',
+    extendedTextMessage: ExtendedTextMessage {
+      text: '1',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Milanesa',
-  from: '5493515924253'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5493515924253@s.whatsapp.net',
-    fromMe: false,
-    id: 'BE506D8E59E19AF4EBC83839B368C082',
-    participant: undefined
-  },
-  messageTimestamp: 1692479277,
-  pushName: 'Martín',
-  broadcast: false,
-  message: Message {
-    conversation: 'Coca',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Coca',
-  from: '5493515924253'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5493515924253@s.whatsapp.net',
-    fromMe: false,
-    id: '145F89E52E9C744F7D679ED2AF0A7E72',
-    participant: undefined
-  },
-  messageTimestamp: 1692479280,
-  pushName: 'Martín',
-  broadcast: false,
-  message: Message {
-    conversation: 'Pollo',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Pollo',
-  from: '5493515924253'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5493515924253@s.whatsapp.net',
-    fromMe: false,
-    id: '07577E13E070751B76B7DDB1125E81A2',
-    participant: undefined
-  },
-  messageTimestamp: 1692479283,
-  pushName: 'Martín',
-  broadcast: false,
-  message: Message {
-    conversation: 'Pepsi',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Pepsi',
-  from: '5493515924253'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5493515924253@s.whatsapp.net',
-    fromMe: false,
-    id: '404861FD4D3FCC1BB4C1C7C962F2DF6A',
-    participant: undefined
-  },
-  messageTimestamp: 1692479311,
-  pushName: 'Martín',
-  broadcast: false,
-  message: Message {
-    conversation: 'Vmozo',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Vmozo',
-  from: '5493515924253'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5493515924253@s.whatsapp.net',
-    fromMe: false,
-    id: '2EA4024E14E30338BA89C63F6950D73C',
-    participant: undefined
-  },
-  messageTimestamp: 1692479319,
-  pushName: 'Martín',
-  broadcast: false,
-  message: Message {
-    conversation: '4',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '4',
-  from: '5493515924253'
+  body: '1',
+  from: '5493512275549'
 }

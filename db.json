@@ -1,8 +1,16 @@
 [
   {
-    "ref": "ans_fed962d9-0a4f-491a-9a61-a95650827579",
-    "keyword": "key_93398747-77ee-4d35-b375-c567953c6eaf",
-    "answer": "Hola bienvenido a vMozo",
+    "ref": "7807add3-f68e-4b72-97b6-0a733c62632a",
+    "keyword": "584b9aed4877ce9ccbd9e157bf757ae3",
+    "answer": "( 2 ) vMozo",
+    "options": {},
+    "from": "5493512275549",
+    "refSerialize": "288187c3548575497a4a4b8cf50504ef"
+  },
+  {
+    "ref": "ans_638035f2-8070-4892-9bad-ef278ab79943",
+    "keyword": "key_3cd76acc-07ae-4302-b9b0-6e52ddb6bf8f",
+    "answer": "Hola bienvenido a Pizzeria Popular\nSoy vMozo su mozo virtual.",
     "options": {
       "media": null,
       "buttons": [],
@@ -13,13 +21,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "bfc7618fbf848551220ce3156b88131c",
-    "from": "5493515924253"
+    "refSerialize": "394a25ee097ca33b009398790e8f7f34",
+    "from": "5493512275549"
   },
   {
-    "ref": "ans_721b94d5-f78c-4159-8663-28a48e223a2d",
-    "keyword": "ans_fed962d9-0a4f-491a-9a61-a95650827579",
-    "answer": "Elija la opcion deseada",
+    "ref": "ans_319266d3-6fe3-4bc6-9ead-f1828f39cf6c",
+    "keyword": "ans_638035f2-8070-4892-9bad-ef278ab79943",
+    "answer": "Elija la opción deseada",
     "options": {
       "media": null,
       "buttons": [],
@@ -28,7 +36,7 @@
       "delay": 0,
       "nested": [
         {
-          "ref": "key_ab1d9a01-6869-4761-a15a-81e93f8b33a5",
+          "ref": "key_a754956e-c54b-470f-ba6d-420843763e5d",
           "keyword": "1",
           "options": {
             "sensitive": false,
@@ -37,24 +45,24 @@
           "refSerialize": "065e0005da6e5c278a53691e53b48955"
         },
         {
-          "ref": "ans_887c34a6-0433-4c38-915e-89ffae30265b",
-          "keyword": "key_ab1d9a01-6869-4761-a15a-81e93f8b33a5",
+          "ref": "ans_fb7f470c-76e7-4307-823d-296e144365e0",
+          "keyword": "key_a754956e-c54b-470f-ba6d-420843763e5d",
           "answer": "Aca te dejo la carta",
           "options": {
-            "media": "https://enlacocina.b-cdn.net/wp-content/uploads/2021/02/carta2.jpg",
+            "media": null,
             "buttons": [],
             "capture": false,
             "child": null,
             "delay": 0,
             "nested": [],
             "keyword": {},
-            "callback": false
+            "callback": true
           },
-          "refSerialize": "27f15d188ceb7e73657e168062f77f27"
+          "refSerialize": "5e717069d1b6f706d1ce189da1ae170b"
         },
         {
-          "ref": "ans_a0e64a5d-992e-4fb7-a7cc-b629c6ba56a3",
-          "keyword": "ans_887c34a6-0433-4c38-915e-89ffae30265b",
+          "ref": "ans_ae12ae2d-a2f4-4473-b281-11f3a6565ac9",
+          "keyword": "ans_fb7f470c-76e7-4307-823d-296e144365e0",
           "answer": "Si desea realizar el pedido de su mesa envie \"pedir\" o para salir envie \"salir\"",
           "options": {
             "media": null,
@@ -64,7 +72,7 @@
             "delay": 0,
             "nested": [
               {
-                "ref": "key_10dab699-865a-4bec-a426-3683babf367c",
+                "ref": "key_a005ea2d-8f89-4bd5-8ac3-ef33af511d8a",
                 "keyword": [
                   "2",
                   "pedir"
@@ -76,9 +84,9 @@
                 "refSerialize": "b64e4feda41f5d78c023d65fbd2b4127"
               },
               {
-                "ref": "ans_25d857af-27fb-40be-9ce6-bc2b6b6945e3",
-                "keyword": "key_10dab699-865a-4bec-a426-3683babf367c",
-                "answer": "Cuantos comensales son ?",
+                "ref": "ans_6fa39d6d-e770-4e86-b239-c57fef9c5088",
+                "keyword": "key_a005ea2d-8f89-4bd5-8ac3-ef33af511d8a",
+                "answer": "¿Cuántas personas van a ordenar ?",
                 "options": {
                   "media": null,
                   "buttons": [],
@@ -89,11 +97,11 @@
                   "keyword": {},
                   "callback": true
                 },
-                "refSerialize": "8b33f6f4210fde478733f8d2635c8152"
+                "refSerialize": "a71d436d03737f9c4deb37ef5ce14370"
               },
               {
-                "ref": "ans_e0e0858d-ce27-423c-9c58-5d81acd563b9",
-                "keyword": "ans_25d857af-27fb-40be-9ce6-bc2b6b6945e3",
+                "ref": "ans_db020544-5d72-48d1-a854-d1fec8228a93",
+                "keyword": "ans_6fa39d6d-e770-4e86-b239-c57fef9c5088",
                 "answer": "Que va a comer el comensal N° 1 ?",
                 "options": {
                   "media": null,
@@ -105,11 +113,11 @@
                   "keyword": {},
                   "callback": true
                 },
-                "refSerialize": "cb3b54870a2dd8a7da1cb2868fc62c39"
+                "refSerialize": "357c6a074834e6dc25a8b52eee9ccfc8"
               },
               {
-                "ref": "ans_421aa67a-e7cc-4da7-a7c9-d96ecddeb797",
-                "keyword": "ans_e0e0858d-ce27-423c-9c58-5d81acd563b9",
+                "ref": "ans_a5a4936f-abf4-405b-9a32-3fbfa65c0d7d",
+                "keyword": "ans_db020544-5d72-48d1-a854-d1fec8228a93",
                 "answer": "Que va a tomar el comensal N° 1 ?",
                 "options": {
                   "media": null,
@@ -121,11 +129,11 @@
                   "keyword": {},
                   "callback": true
                 },
-                "refSerialize": "ed52bcdab82c73cfe4fe78393c8fb0b6"
+                "refSerialize": "735e56e7370c8b85882faf9d7ee5c146"
               },
               {
-                "ref": "ans_b9edb691-fdbe-4dc0-9a69-2b5e500713cf",
-                "keyword": "ans_421aa67a-e7cc-4da7-a7c9-d96ecddeb797",
+                "ref": "ans_d7930fde-0561-419b-8e2c-ce31531b57be",
+                "keyword": "ans_a5a4936f-abf4-405b-9a32-3fbfa65c0d7d",
                 "answer": "Que va a comer el comensal N° 2 ?",
                 "options": {
                   "media": null,
@@ -137,11 +145,11 @@
                   "keyword": {},
                   "callback": true
                 },
-                "refSerialize": "80eb8ec2913410fa3abfb660e94f18e4"
+                "refSerialize": "3f2373626a0e5f671f4481b8d6df1383"
               },
               {
-                "ref": "ans_0cd26326-2775-4799-b22f-f1bcea2c0c2a",
-                "keyword": "ans_b9edb691-fdbe-4dc0-9a69-2b5e500713cf",
+                "ref": "ans_dbbfb4c2-d43f-41ab-848b-92fcfe9b994c",
+                "keyword": "ans_d7930fde-0561-419b-8e2c-ce31531b57be",
                 "answer": "Que va a tomar el comensal N° 2 ?",
                 "options": {
                   "media": null,
@@ -153,11 +161,11 @@
                   "keyword": {},
                   "callback": true
                 },
-                "refSerialize": "7c79b1f2cf8cbe360cbc0faecfab56ed"
+                "refSerialize": "cbb3e9e41eb2e424bf1d98964dd2dc40"
               },
               {
-                "ref": "ans_efa1a1a8-abd8-4303-b0f9-92548be25b25",
-                "keyword": "ans_0cd26326-2775-4799-b22f-f1bcea2c0c2a",
+                "ref": "ans_55fdf60f-2b70-473a-b4b3-79fd343f8092",
+                "keyword": "ans_dbbfb4c2-d43f-41ab-848b-92fcfe9b994c",
                 "answer": "Que va a comer el comensal N° 3 ?",
                 "options": {
                   "media": null,
@@ -169,11 +177,11 @@
                   "keyword": {},
                   "callback": true
                 },
-                "refSerialize": "12285a7c02499f4ae82cb640df3d8f43"
+                "refSerialize": "8706a420d0db0c4aa0f048f6e1fcf8b0"
               },
               {
-                "ref": "ans_3723c637-fccf-4baa-a9df-fa464faa3021",
-                "keyword": "ans_efa1a1a8-abd8-4303-b0f9-92548be25b25",
+                "ref": "ans_b6c70666-43d9-4375-bab8-b168211fe7d0",
+                "keyword": "ans_55fdf60f-2b70-473a-b4b3-79fd343f8092",
                 "answer": "Que va a tomar el comensal N° 3 ?",
                 "options": {
                   "media": null,
@@ -185,11 +193,11 @@
                   "keyword": {},
                   "callback": true
                 },
-                "refSerialize": "5598ed782a0091d286e93d0305c42ef0"
+                "refSerialize": "99b73db0e8187294db3ff9d0e79abc64"
               },
               {
-                "ref": "ans_c9487d25-f9a3-47f2-8e8e-e0faa96f67fb",
-                "keyword": "ans_3723c637-fccf-4baa-a9df-fa464faa3021",
+                "ref": "ans_4c71b756-1019-42e3-9e5f-3005619eea1c",
+                "keyword": "ans_b6c70666-43d9-4375-bab8-b168211fe7d0",
                 "answer": "Que va a comer el comensal N° 4 ?",
                 "options": {
                   "media": null,
@@ -201,11 +209,11 @@
                   "keyword": {},
                   "callback": true
                 },
-                "refSerialize": "c7635638909243ebee7f1f50a93bb8be"
+                "refSerialize": "e431ea27c679329db5dec4cbe8d3e907"
               },
               {
-                "ref": "ans_e9dc1ade-eb69-419c-a0f0-fd4cfe590f3a",
-                "keyword": "ans_c9487d25-f9a3-47f2-8e8e-e0faa96f67fb",
+                "ref": "ans_83a7f66f-b9ff-42b6-bf40-e3e46ce77ac0",
+                "keyword": "ans_4c71b756-1019-42e3-9e5f-3005619eea1c",
                 "answer": "Que va a tomar el comensal N° 4 ?",
                 "options": {
                   "media": null,
@@ -217,11 +225,11 @@
                   "keyword": {},
                   "callback": true
                 },
-                "refSerialize": "b4846dd439c972872e02375594db9702"
+                "refSerialize": "439462c340fc9aee29933f8fdd816d42"
               },
               {
-                "ref": "ans_b72bdf7d-afac-4f29-beb2-85358b63f872",
-                "keyword": "ans_e9dc1ade-eb69-419c-a0f0-fd4cfe590f3a",
+                "ref": "ans_2df8840b-f8fc-412d-a1c9-2b2e7d834024",
+                "keyword": "ans_83a7f66f-b9ff-42b6-bf40-e3e46ce77ac0",
                 "answer": "Que va a comer el comensal N° 5 ?",
                 "options": {
                   "media": null,
@@ -233,11 +241,11 @@
                   "keyword": {},
                   "callback": true
                 },
-                "refSerialize": "1e0947f8d5df360c06069cc4ea9f3c8c"
+                "refSerialize": "2f142a85c6ae19e232501c3b44b7f300"
               },
               {
-                "ref": "ans_be9885fd-8992-44a3-bf5f-a6cc6bcde1c7",
-                "keyword": "ans_b72bdf7d-afac-4f29-beb2-85358b63f872",
+                "ref": "ans_91713477-4a5a-4d5a-856e-911b4f7b4500",
+                "keyword": "ans_2df8840b-f8fc-412d-a1c9-2b2e7d834024",
                 "answer": "Que va a tomar el comensal N° 5 ?",
                 "options": {
                   "media": null,
@@ -249,11 +257,11 @@
                   "keyword": {},
                   "callback": true
                 },
-                "refSerialize": "39dd6867c056b2bffb7c59f1f8c976b5"
+                "refSerialize": "16ff090c3b46f96507fe46e6e21a7a19"
               },
               {
-                "ref": "ans_53bdb1ab-8e9c-4e10-86f5-ff644fb87c05",
-                "keyword": "ans_be9885fd-8992-44a3-bf5f-a6cc6bcde1c7",
+                "ref": "ans_cc06537f-89fb-4735-803c-24b96f77d967",
+                "keyword": "ans_91713477-4a5a-4d5a-856e-911b4f7b4500",
                 "answer": "Que va a comer el comensal N° 6 ?",
                 "options": {
                   "media": null,
@@ -265,11 +273,11 @@
                   "keyword": {},
                   "callback": true
                 },
-                "refSerialize": "abeff4522daa44132240fcdfc81706d3"
+                "refSerialize": "d5f961ab6ec1be31112099c2c9cfa867"
               },
               {
-                "ref": "ans_50375164-f5ae-4321-8cf0-b91d41c9f962",
-                "keyword": "ans_53bdb1ab-8e9c-4e10-86f5-ff644fb87c05",
+                "ref": "ans_6611c4d2-7cbf-4168-a850-74c42c2e69ba",
+                "keyword": "ans_cc06537f-89fb-4735-803c-24b96f77d967",
                 "answer": "Que va a tomar el comensal N° 6 ?",
                 "options": {
                   "media": null,
@@ -281,11 +289,11 @@
                   "keyword": {},
                   "callback": true
                 },
-                "refSerialize": "e94c2b2411069b88ca27c9361ea7c7cd"
+                "refSerialize": "d07eba2f75354b3c21429ad06bafc434"
               },
               {
-                "ref": "ans_6e5aed48-8755-456a-9738-c378b7610fa3",
-                "keyword": "ans_50375164-f5ae-4321-8cf0-b91d41c9f962",
+                "ref": "ans_7bdfd598-c380-4b6b-9ee4-59cfc4757097",
+                "keyword": "ans_6611c4d2-7cbf-4168-a850-74c42c2e69ba",
                 "answer": "Que va a comer el comensal N° 7 ?",
                 "options": {
                   "media": null,
@@ -297,11 +305,11 @@
                   "keyword": {},
                   "callback": true
                 },
-                "refSerialize": "b949775c03885bdb03ed56d7c5732980"
+                "refSerialize": "a2dc5c549f46df06a7e756b10886ebad"
               },
               {
-                "ref": "ans_fc0ee994-d12c-4c13-b005-8136fb69ec20",
-                "keyword": "ans_6e5aed48-8755-456a-9738-c378b7610fa3",
+                "ref": "ans_8eecae2a-fe62-4060-a333-7c6b8df5e8e0",
+                "keyword": "ans_7bdfd598-c380-4b6b-9ee4-59cfc4757097",
                 "answer": "Que va a tomar el comensal N° 7 ?",
                 "options": {
                   "media": null,
@@ -313,11 +321,11 @@
                   "keyword": {},
                   "callback": true
                 },
-                "refSerialize": "a2d9525d48e0cbc8dad70101bbd0b870"
+                "refSerialize": "bb0d3b8662723669cd048794c0742572"
               },
               {
-                "ref": "ans_47dc7fb9-70fb-41af-9dc2-9ceec1dc9633",
-                "keyword": "ans_fc0ee994-d12c-4c13-b005-8136fb69ec20",
+                "ref": "ans_58e13524-c4fe-4640-b3a5-8ad235587e27",
+                "keyword": "ans_8eecae2a-fe62-4060-a333-7c6b8df5e8e0",
                 "answer": "Que va a comer el comensal N° 8 ?",
                 "options": {
                   "media": null,
@@ -329,11 +337,11 @@
                   "keyword": {},
                   "callback": true
                 },
-                "refSerialize": "b78ff146997dceb93d066eab013fa5ca"
+                "refSerialize": "b4cc2a966c3759d438270d0677cb28f1"
               },
               {
-                "ref": "ans_2ada4c70-d716-40b3-b23f-03102976f8a5",
-                "keyword": "ans_47dc7fb9-70fb-41af-9dc2-9ceec1dc9633",
+                "ref": "ans_78fb29d6-e848-414c-be10-3c3b0f449b64",
+                "keyword": "ans_58e13524-c4fe-4640-b3a5-8ad235587e27",
                 "answer": "Que va a tomar el comensal N° 8 ?",
                 "options": {
                   "media": null,
@@ -345,11 +353,11 @@
                   "keyword": {},
                   "callback": true
                 },
-                "refSerialize": "1105e9f57caf855fc73a6e58be481d70"
+                "refSerialize": "532cf5c00668d2daad77284995283f87"
               },
               {
-                "ref": "ans_d769c7be-33c5-4af5-99ce-fef30ce72576",
-                "keyword": "ans_2ada4c70-d716-40b3-b23f-03102976f8a5",
+                "ref": "ans_76aea99e-45b2-49d9-9e48-8c2cf34f683f",
+                "keyword": "ans_78fb29d6-e848-414c-be10-3c3b0f449b64",
                 "answer": "Que va a comer el comensal N° 9 ?",
                 "options": {
                   "media": null,
@@ -361,11 +369,11 @@
                   "keyword": {},
                   "callback": true
                 },
-                "refSerialize": "e5382f3083ca2f308719d104c20277cf"
+                "refSerialize": "81294cfa8ca3be6ed0eb830c1af91c49"
               },
               {
-                "ref": "ans_38b1383e-a7ca-4e83-9ed6-43b01571ee48",
-                "keyword": "ans_d769c7be-33c5-4af5-99ce-fef30ce72576",
+                "ref": "ans_9e5ad0e5-23c1-4907-b7d3-92145ed65be0",
+                "keyword": "ans_76aea99e-45b2-49d9-9e48-8c2cf34f683f",
                 "answer": "Que va a tomar el comensal N° 9 ?",
                 "options": {
                   "media": null,
@@ -377,11 +385,11 @@
                   "keyword": {},
                   "callback": true
                 },
-                "refSerialize": "5e1bea4f0d668be4e93956bdd9b77fe8"
+                "refSerialize": "7a40809be3651a78e86f3f62e202a503"
               },
               {
-                "ref": "ans_808dad6b-e19a-448e-b60d-48233aff251f",
-                "keyword": "ans_38b1383e-a7ca-4e83-9ed6-43b01571ee48",
+                "ref": "ans_275c6c9f-a6af-473b-917b-aed1a6919d81",
+                "keyword": "ans_9e5ad0e5-23c1-4907-b7d3-92145ed65be0",
                 "answer": "Que va a comer el comensal N° 10 ?",
                 "options": {
                   "media": null,
@@ -393,11 +401,11 @@
                   "keyword": {},
                   "callback": true
                 },
-                "refSerialize": "a76b501750764be677e1cbb7b2ab3a0d"
+                "refSerialize": "24c294c946442ab6a2dc7d93e0c39374"
               },
               {
-                "ref": "ans_d2986ac9-fc35-4c25-98d4-407d5aea96a9",
-                "keyword": "ans_808dad6b-e19a-448e-b60d-48233aff251f",
+                "ref": "ans_45c8c3e9-fbfb-4f8c-991a-bed2e50b8cb3",
+                "keyword": "ans_275c6c9f-a6af-473b-917b-aed1a6919d81",
                 "answer": "Que va a tomar el comensal N° 10 ?",
                 "options": {
                   "media": null,
@@ -409,16 +417,16 @@
                   "keyword": {},
                   "callback": true
                 },
-                "refSerialize": "1bd226d2333b0f93072858a83b921dc3"
+                "refSerialize": "6662c3aade611e09da2970cfac093ae0"
               }
             ],
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "a08d8b5c79f02ee250b97180e1b4ea72"
+          "refSerialize": "333234ea2f1f880e4d7c0a178f8898c4"
         },
         {
-          "ref": "key_10dab699-865a-4bec-a426-3683babf367c",
+          "ref": "key_a005ea2d-8f89-4bd5-8ac3-ef33af511d8a",
           "keyword": [
             "2",
             "pedir"
@@ -430,9 +438,9 @@
           "refSerialize": "b64e4feda41f5d78c023d65fbd2b4127"
         },
         {
-          "ref": "ans_25d857af-27fb-40be-9ce6-bc2b6b6945e3",
-          "keyword": "key_10dab699-865a-4bec-a426-3683babf367c",
-          "answer": "Cuantos comensales son ?",
+          "ref": "ans_6fa39d6d-e770-4e86-b239-c57fef9c5088",
+          "keyword": "key_a005ea2d-8f89-4bd5-8ac3-ef33af511d8a",
+          "answer": "¿Cuántas personas van a ordenar ?",
           "options": {
             "media": null,
             "buttons": [],
@@ -443,11 +451,11 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "8b33f6f4210fde478733f8d2635c8152"
+          "refSerialize": "a71d436d03737f9c4deb37ef5ce14370"
         },
         {
-          "ref": "ans_e0e0858d-ce27-423c-9c58-5d81acd563b9",
-          "keyword": "ans_25d857af-27fb-40be-9ce6-bc2b6b6945e3",
+          "ref": "ans_db020544-5d72-48d1-a854-d1fec8228a93",
+          "keyword": "ans_6fa39d6d-e770-4e86-b239-c57fef9c5088",
           "answer": "Que va a comer el comensal N° 1 ?",
           "options": {
             "media": null,
@@ -459,11 +467,11 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "cb3b54870a2dd8a7da1cb2868fc62c39"
+          "refSerialize": "357c6a074834e6dc25a8b52eee9ccfc8"
         },
         {
-          "ref": "ans_421aa67a-e7cc-4da7-a7c9-d96ecddeb797",
-          "keyword": "ans_e0e0858d-ce27-423c-9c58-5d81acd563b9",
+          "ref": "ans_a5a4936f-abf4-405b-9a32-3fbfa65c0d7d",
+          "keyword": "ans_db020544-5d72-48d1-a854-d1fec8228a93",
           "answer": "Que va a tomar el comensal N° 1 ?",
           "options": {
             "media": null,
@@ -475,11 +483,11 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "ed52bcdab82c73cfe4fe78393c8fb0b6"
+          "refSerialize": "735e56e7370c8b85882faf9d7ee5c146"
         },
         {
-          "ref": "ans_b9edb691-fdbe-4dc0-9a69-2b5e500713cf",
-          "keyword": "ans_421aa67a-e7cc-4da7-a7c9-d96ecddeb797",
+          "ref": "ans_d7930fde-0561-419b-8e2c-ce31531b57be",
+          "keyword": "ans_a5a4936f-abf4-405b-9a32-3fbfa65c0d7d",
           "answer": "Que va a comer el comensal N° 2 ?",
           "options": {
             "media": null,
@@ -491,11 +499,11 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "80eb8ec2913410fa3abfb660e94f18e4"
+          "refSerialize": "3f2373626a0e5f671f4481b8d6df1383"
         },
         {
-          "ref": "ans_0cd26326-2775-4799-b22f-f1bcea2c0c2a",
-          "keyword": "ans_b9edb691-fdbe-4dc0-9a69-2b5e500713cf",
+          "ref": "ans_dbbfb4c2-d43f-41ab-848b-92fcfe9b994c",
+          "keyword": "ans_d7930fde-0561-419b-8e2c-ce31531b57be",
           "answer": "Que va a tomar el comensal N° 2 ?",
           "options": {
             "media": null,
@@ -507,11 +515,11 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "7c79b1f2cf8cbe360cbc0faecfab56ed"
+          "refSerialize": "cbb3e9e41eb2e424bf1d98964dd2dc40"
         },
         {
-          "ref": "ans_efa1a1a8-abd8-4303-b0f9-92548be25b25",
-          "keyword": "ans_0cd26326-2775-4799-b22f-f1bcea2c0c2a",
+          "ref": "ans_55fdf60f-2b70-473a-b4b3-79fd343f8092",
+          "keyword": "ans_dbbfb4c2-d43f-41ab-848b-92fcfe9b994c",
           "answer": "Que va a comer el comensal N° 3 ?",
           "options": {
             "media": null,
@@ -523,11 +531,11 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "12285a7c02499f4ae82cb640df3d8f43"
+          "refSerialize": "8706a420d0db0c4aa0f048f6e1fcf8b0"
         },
         {
-          "ref": "ans_3723c637-fccf-4baa-a9df-fa464faa3021",
-          "keyword": "ans_efa1a1a8-abd8-4303-b0f9-92548be25b25",
+          "ref": "ans_b6c70666-43d9-4375-bab8-b168211fe7d0",
+          "keyword": "ans_55fdf60f-2b70-473a-b4b3-79fd343f8092",
           "answer": "Que va a tomar el comensal N° 3 ?",
           "options": {
             "media": null,
@@ -539,11 +547,11 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "5598ed782a0091d286e93d0305c42ef0"
+          "refSerialize": "99b73db0e8187294db3ff9d0e79abc64"
         },
         {
-          "ref": "ans_c9487d25-f9a3-47f2-8e8e-e0faa96f67fb",
-          "keyword": "ans_3723c637-fccf-4baa-a9df-fa464faa3021",
+          "ref": "ans_4c71b756-1019-42e3-9e5f-3005619eea1c",
+          "keyword": "ans_b6c70666-43d9-4375-bab8-b168211fe7d0",
           "answer": "Que va a comer el comensal N° 4 ?",
           "options": {
             "media": null,
@@ -555,11 +563,11 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "c7635638909243ebee7f1f50a93bb8be"
+          "refSerialize": "e431ea27c679329db5dec4cbe8d3e907"
         },
         {
-          "ref": "ans_e9dc1ade-eb69-419c-a0f0-fd4cfe590f3a",
-          "keyword": "ans_c9487d25-f9a3-47f2-8e8e-e0faa96f67fb",
+          "ref": "ans_83a7f66f-b9ff-42b6-bf40-e3e46ce77ac0",
+          "keyword": "ans_4c71b756-1019-42e3-9e5f-3005619eea1c",
           "answer": "Que va a tomar el comensal N° 4 ?",
           "options": {
             "media": null,
@@ -571,11 +579,11 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "b4846dd439c972872e02375594db9702"
+          "refSerialize": "439462c340fc9aee29933f8fdd816d42"
         },
         {
-          "ref": "ans_b72bdf7d-afac-4f29-beb2-85358b63f872",
-          "keyword": "ans_e9dc1ade-eb69-419c-a0f0-fd4cfe590f3a",
+          "ref": "ans_2df8840b-f8fc-412d-a1c9-2b2e7d834024",
+          "keyword": "ans_83a7f66f-b9ff-42b6-bf40-e3e46ce77ac0",
           "answer": "Que va a comer el comensal N° 5 ?",
           "options": {
             "media": null,
@@ -587,11 +595,11 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "1e0947f8d5df360c06069cc4ea9f3c8c"
+          "refSerialize": "2f142a85c6ae19e232501c3b44b7f300"
         },
         {
-          "ref": "ans_be9885fd-8992-44a3-bf5f-a6cc6bcde1c7",
-          "keyword": "ans_b72bdf7d-afac-4f29-beb2-85358b63f872",
+          "ref": "ans_91713477-4a5a-4d5a-856e-911b4f7b4500",
+          "keyword": "ans_2df8840b-f8fc-412d-a1c9-2b2e7d834024",
           "answer": "Que va a tomar el comensal N° 5 ?",
           "options": {
             "media": null,
@@ -603,11 +611,11 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "39dd6867c056b2bffb7c59f1f8c976b5"
+          "refSerialize": "16ff090c3b46f96507fe46e6e21a7a19"
         },
         {
-          "ref": "ans_53bdb1ab-8e9c-4e10-86f5-ff644fb87c05",
-          "keyword": "ans_be9885fd-8992-44a3-bf5f-a6cc6bcde1c7",
+          "ref": "ans_cc06537f-89fb-4735-803c-24b96f77d967",
+          "keyword": "ans_91713477-4a5a-4d5a-856e-911b4f7b4500",
           "answer": "Que va a comer el comensal N° 6 ?",
           "options": {
             "media": null,
@@ -619,11 +627,11 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "abeff4522daa44132240fcdfc81706d3"
+          "refSerialize": "d5f961ab6ec1be31112099c2c9cfa867"
         },
         {
-          "ref": "ans_50375164-f5ae-4321-8cf0-b91d41c9f962",
-          "keyword": "ans_53bdb1ab-8e9c-4e10-86f5-ff644fb87c05",
+          "ref": "ans_6611c4d2-7cbf-4168-a850-74c42c2e69ba",
+          "keyword": "ans_cc06537f-89fb-4735-803c-24b96f77d967",
           "answer": "Que va a tomar el comensal N° 6 ?",
           "options": {
             "media": null,
@@ -635,11 +643,11 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "e94c2b2411069b88ca27c9361ea7c7cd"
+          "refSerialize": "d07eba2f75354b3c21429ad06bafc434"
         },
         {
-          "ref": "ans_6e5aed48-8755-456a-9738-c378b7610fa3",
-          "keyword": "ans_50375164-f5ae-4321-8cf0-b91d41c9f962",
+          "ref": "ans_7bdfd598-c380-4b6b-9ee4-59cfc4757097",
+          "keyword": "ans_6611c4d2-7cbf-4168-a850-74c42c2e69ba",
           "answer": "Que va a comer el comensal N° 7 ?",
           "options": {
             "media": null,
@@ -651,11 +659,11 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "b949775c03885bdb03ed56d7c5732980"
+          "refSerialize": "a2dc5c549f46df06a7e756b10886ebad"
         },
         {
-          "ref": "ans_fc0ee994-d12c-4c13-b005-8136fb69ec20",
-          "keyword": "ans_6e5aed48-8755-456a-9738-c378b7610fa3",
+          "ref": "ans_8eecae2a-fe62-4060-a333-7c6b8df5e8e0",
+          "keyword": "ans_7bdfd598-c380-4b6b-9ee4-59cfc4757097",
           "answer": "Que va a tomar el comensal N° 7 ?",
           "options": {
             "media": null,
@@ -667,11 +675,11 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "a2d9525d48e0cbc8dad70101bbd0b870"
+          "refSerialize": "bb0d3b8662723669cd048794c0742572"
         },
         {
-          "ref": "ans_47dc7fb9-70fb-41af-9dc2-9ceec1dc9633",
-          "keyword": "ans_fc0ee994-d12c-4c13-b005-8136fb69ec20",
+          "ref": "ans_58e13524-c4fe-4640-b3a5-8ad235587e27",
+          "keyword": "ans_8eecae2a-fe62-4060-a333-7c6b8df5e8e0",
           "answer": "Que va a comer el comensal N° 8 ?",
           "options": {
             "media": null,
@@ -683,11 +691,11 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "b78ff146997dceb93d066eab013fa5ca"
+          "refSerialize": "b4cc2a966c3759d438270d0677cb28f1"
         },
         {
-          "ref": "ans_2ada4c70-d716-40b3-b23f-03102976f8a5",
-          "keyword": "ans_47dc7fb9-70fb-41af-9dc2-9ceec1dc9633",
+          "ref": "ans_78fb29d6-e848-414c-be10-3c3b0f449b64",
+          "keyword": "ans_58e13524-c4fe-4640-b3a5-8ad235587e27",
           "answer": "Que va a tomar el comensal N° 8 ?",
           "options": {
             "media": null,
@@ -699,11 +707,11 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "1105e9f57caf855fc73a6e58be481d70"
+          "refSerialize": "532cf5c00668d2daad77284995283f87"
         },
         {
-          "ref": "ans_d769c7be-33c5-4af5-99ce-fef30ce72576",
-          "keyword": "ans_2ada4c70-d716-40b3-b23f-03102976f8a5",
+          "ref": "ans_76aea99e-45b2-49d9-9e48-8c2cf34f683f",
+          "keyword": "ans_78fb29d6-e848-414c-be10-3c3b0f449b64",
           "answer": "Que va a comer el comensal N° 9 ?",
           "options": {
             "media": null,
@@ -715,11 +723,11 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "e5382f3083ca2f308719d104c20277cf"
+          "refSerialize": "81294cfa8ca3be6ed0eb830c1af91c49"
         },
         {
-          "ref": "ans_38b1383e-a7ca-4e83-9ed6-43b01571ee48",
-          "keyword": "ans_d769c7be-33c5-4af5-99ce-fef30ce72576",
+          "ref": "ans_9e5ad0e5-23c1-4907-b7d3-92145ed65be0",
+          "keyword": "ans_76aea99e-45b2-49d9-9e48-8c2cf34f683f",
           "answer": "Que va a tomar el comensal N° 9 ?",
           "options": {
             "media": null,
@@ -731,11 +739,11 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "5e1bea4f0d668be4e93956bdd9b77fe8"
+          "refSerialize": "7a40809be3651a78e86f3f62e202a503"
         },
         {
-          "ref": "ans_808dad6b-e19a-448e-b60d-48233aff251f",
-          "keyword": "ans_38b1383e-a7ca-4e83-9ed6-43b01571ee48",
+          "ref": "ans_275c6c9f-a6af-473b-917b-aed1a6919d81",
+          "keyword": "ans_9e5ad0e5-23c1-4907-b7d3-92145ed65be0",
           "answer": "Que va a comer el comensal N° 10 ?",
           "options": {
             "media": null,
@@ -747,11 +755,11 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "a76b501750764be677e1cbb7b2ab3a0d"
+          "refSerialize": "24c294c946442ab6a2dc7d93e0c39374"
         },
         {
-          "ref": "ans_d2986ac9-fc35-4c25-98d4-407d5aea96a9",
-          "keyword": "ans_808dad6b-e19a-448e-b60d-48233aff251f",
+          "ref": "ans_45c8c3e9-fbfb-4f8c-991a-bed2e50b8cb3",
+          "keyword": "ans_275c6c9f-a6af-473b-917b-aed1a6919d81",
           "answer": "Que va a tomar el comensal N° 10 ?",
           "options": {
             "media": null,
@@ -763,10 +771,10 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "1bd226d2333b0f93072858a83b921dc3"
+          "refSerialize": "6662c3aade611e09da2970cfac093ae0"
         },
         {
-          "ref": "key_3e05069d-b3bc-40f2-ab32-38693b06b686",
+          "ref": "key_e3196ec6-1249-47cf-a039-2610419e74ae",
           "keyword": "3",
           "options": {
             "sensitive": false,
@@ -775,9 +783,9 @@
           "refSerialize": "741cd7b8654e06cc47783fa3ba233c53"
         },
         {
-          "ref": "ans_0a9a16ea-a532-44b6-a6e3-75ff48224ea5",
-          "keyword": "key_3e05069d-b3bc-40f2-ab32-38693b06b686",
-          "answer": "En un solo mensaje, indique que desea agregar a su mesa",
+          "ref": "ans_f9906320-a77d-489a-9ea5-6e74f55b8081",
+          "keyword": "key_e3196ec6-1249-47cf-a039-2610419e74ae",
+          "answer": "En un solo mensaje, indique que desea agregar a tu mesa",
           "options": {
             "media": null,
             "buttons": [],
@@ -788,10 +796,10 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "b04a492016aba17740d1aad8534fb5fe"
+          "refSerialize": "35ab6c29f3d53474cea010a0bc656877"
         },
         {
-          "ref": "key_d9c40345-1014-4d20-a2e6-ea328be7e75a",
+          "ref": "key_719cbe7c-d614-424f-b696-ac774593ebc7",
           "keyword": "4",
           "options": {
             "sensitive": false,
@@ -800,8 +808,8 @@
           "refSerialize": "fc09f52170be47fcb14a1cee9c5d3c52"
         },
         {
-          "ref": "ans_dffee209-c083-4f15-990e-21531e2e951b",
-          "keyword": "key_d9c40345-1014-4d20-a2e6-ea328be7e75a",
+          "ref": "ans_4f7ff7c7-f933-4500-8c1c-fb3e207d807e",
+          "keyword": "key_719cbe7c-d614-424f-b696-ac774593ebc7",
           "answer": "El mozo ya fue notificado, a la brevedad se acercara a la mesa",
           "options": {
             "media": null,
@@ -813,10 +821,10 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "174f69fe0b05d74c146c52c056743392"
+          "refSerialize": "9ebc4637c89d3c8d47e0d9c933f793ea"
         },
         {
-          "ref": "key_c56275d6-78ca-4377-90c4-2ed92b601b78",
+          "ref": "key_a2cec3b1-4e15-48e0-9d52-c189ac3bda3b",
           "keyword": "5",
           "options": {
             "sensitive": false,
@@ -825,8 +833,8 @@
           "refSerialize": "660d6f380cd3d2aa67431f161ba4eccf"
         },
         {
-          "ref": "ans_f20045ff-7152-4662-bd0f-7babe3e9af9d",
-          "keyword": "key_c56275d6-78ca-4377-90c4-2ed92b601b78",
+          "ref": "ans_f2d89fb7-14bc-48b2-b2a9-fde268753c23",
+          "keyword": "key_a2cec3b1-4e15-48e0-9d52-c189ac3bda3b",
           "answer": "El mozo ya fue notificado, a la brevedad le llevara la cuenta a la mesa",
           "options": {
             "media": null,
@@ -838,40 +846,270 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "11e2ac4e461c91c1397eeaf15bc57a66"
+          "refSerialize": "cc549baf9a80275aafafa01b252b8512"
+        },
+        {
+          "ref": "key_1b803c49-b855-4bf0-af95-c7ee3d14bdf6",
+          "keyword": "6",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "ae093091123de34d8570657f16bd7343"
+        },
+        {
+          "ref": "ans_381b3ba5-e863-4d96-81d6-1edbdea330c5",
+          "keyword": "key_1b803c49-b855-4bf0-af95-c7ee3d14bdf6",
+          "answer": "Gracias por comer en Pizzeria Popular y usar vMozo.\nEspero que disfrutaras la experiencia.\nTu opinion nos importa muchisimo para mejorar el servicio y seguir creciendo\nSi deseas dejarnos un comentario y contestar unas breves preguntas escribe \"SI\" para continuar.",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "8b7af60a6119e7c70d485978157fa898"
+        },
+        {
+          "ref": "ans_42b87f69-a594-4ae5-82be-6cf35231e6e6",
+          "keyword": "ans_381b3ba5-e863-4d96-81d6-1edbdea330c5",
+          "answer": "¿Como calificarías de 1 a 10 tu experiencia en Pizzeria Popular ?",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "221f55edaa6e6ba89526ec13abba1908"
+        },
+        {
+          "ref": "ans_5e84187b-f521-4b38-b9f3-298429873848",
+          "keyword": "ans_42b87f69-a594-4ae5-82be-6cf35231e6e6",
+          "answer": "¿Como calificarías de 1 a 10 la atención de vMozo ?",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "f598fdf9b015ff9bb920b84a1e654181"
+        },
+        {
+          "ref": "ans_6810c56a-1267-406f-a79a-56ec6e9da7af",
+          "keyword": "ans_5e84187b-f521-4b38-b9f3-298429873848",
+          "answer": "Dejanos un comentario sobre que cambiarias para mejorar tu experiencia",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "1d57520bc950b23ba3eda02dd2d7f3f3"
+        },
+        {
+          "ref": "ans_f1c6ce8f-7c4c-4cd5-bdaa-7f5805160e78",
+          "keyword": "ans_6810c56a-1267-406f-a79a-56ec6e9da7af",
+          "answer": "Si te gustaria recibir informacion de Pizzeria Popular como promociones, descuentos o eventos especiales, dejanos un correo. \nDe lo contrario envia \"NO\"",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "4ccfe5aa86307ab64885a4930cf95120"
+        },
+        {
+          "ref": "ans_191b6f0c-9000-4fe6-9392-fc2bf90f7f8c",
+          "keyword": "ans_f1c6ce8f-7c4c-4cd5-bdaa-7f5805160e78",
+          "answer": "Muchas gracias por tu devolucion\nEsperamos poder atenderte nuevamente pronto\nEscriba vMozo para volver a comenzar",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "83c9de72161abdf908be20311c8d12f4"
         }
       ],
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "fcf957390cdf2541d4dcabc5855abb56",
-    "from": "5493515924253"
+    "refSerialize": "b3df8181d0186a75c19cea148d173787",
+    "from": "5493512275549"
   },
   {
-    "ref": "52075184-6ba9-4542-bc2b-9541437635c8",
-    "answer": "1. Ver la carta\n2. Realizar un pedido\n3. Agregar algo a un pedido\n4. Llamar al mozo\n5. Pedir la cuenta\n6. Salir",
+    "ref": "407b1ecd-4ca4-4659-9db3-4b1357aa323c",
+    "answer": "1. Ver el Menú\n2. Ordenar\n3. Agregar algo a mi pedido\n4. Llamar al mozo\n5. Pedir la cuenta\n6. Salir",
     "options": {
       "media": null,
       "buttons": [],
       "capture": false
     },
-    "from": "5493515924253",
-    "refSerialize": "be0658c15ca121f724f26224c3a5c4db"
+    "from": "5493512275549",
+    "refSerialize": "b24d89de70e049ed65d07b8901ef4325"
   },
   {
-    "ref": "a37d6d57-abfe-4a37-b513-25cfec4b3068",
-    "keyword": "fcf957390cdf2541d4dcabc5855abb56",
+    "ref": "a41bee8b-d62d-4409-9fbb-e5fe5d82b2f8",
+    "keyword": "b3df8181d0186a75c19cea148d173787",
+    "answer": "6",
+    "options": {},
+    "from": "5493512275549",
+    "refSerialize": "a7c49181ef3046656ea8ab317c4adca7"
+  },
+  {
+    "ref": "ans_381b3ba5-e863-4d96-81d6-1edbdea330c5",
+    "keyword": "key_1b803c49-b855-4bf0-af95-c7ee3d14bdf6",
+    "answer": "Gracias por comer en Pizzeria Popular y usar vMozo.\nEspero que disfrutaras la experiencia.\nTu opinion nos importa muchisimo para mejorar el servicio y seguir creciendo\nSi deseas dejarnos un comentario y contestar unas breves preguntas escribe \"SI\" para continuar.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "8b7af60a6119e7c70d485978157fa898",
+    "from": "5493512275549"
+  },
+  {
+    "ref": "8c0b0c8d-7f9d-4e2c-9ce4-9b1553877258",
+    "keyword": "8b7af60a6119e7c70d485978157fa898",
+    "answer": "si",
+    "options": {},
+    "from": "5493512275549",
+    "refSerialize": "715ca38ec28b8dabb30e75e511c57a3a"
+  },
+  {
+    "ref": "ans_42b87f69-a594-4ae5-82be-6cf35231e6e6",
+    "keyword": "ans_381b3ba5-e863-4d96-81d6-1edbdea330c5",
+    "answer": "¿Como calificarías de 1 a 10 tu experiencia en Pizzeria Popular ?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "221f55edaa6e6ba89526ec13abba1908",
+    "from": "5493512275549"
+  },
+  {
+    "ref": "97b8ed07-ee0b-4090-b8ed-3bf6e6f6ca53",
+    "keyword": "221f55edaa6e6ba89526ec13abba1908",
     "answer": "1",
     "options": {},
-    "from": "5493515924253",
+    "from": "5493512275549",
     "refSerialize": "290236b1d481a790a200ea6e94b2122a"
   },
   {
-    "ref": "ans_887c34a6-0433-4c38-915e-89ffae30265b",
-    "keyword": "key_ab1d9a01-6869-4761-a15a-81e93f8b33a5",
-    "answer": "Aca te dejo la carta",
+    "ref": "ans_5e84187b-f521-4b38-b9f3-298429873848",
+    "keyword": "ans_42b87f69-a594-4ae5-82be-6cf35231e6e6",
+    "answer": "¿Como calificarías de 1 a 10 la atención de vMozo ?",
     "options": {
-      "media": "https://enlacocina.b-cdn.net/wp-content/uploads/2021/02/carta2.jpg",
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "f598fdf9b015ff9bb920b84a1e654181",
+    "from": "5493512275549"
+  },
+  {
+    "ref": "7a620114-b2b1-4259-af97-af6ad99e0352",
+    "keyword": "f598fdf9b015ff9bb920b84a1e654181",
+    "answer": "1",
+    "options": {},
+    "from": "5493512275549",
+    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
+  },
+  {
+    "ref": "ans_6810c56a-1267-406f-a79a-56ec6e9da7af",
+    "keyword": "ans_5e84187b-f521-4b38-b9f3-298429873848",
+    "answer": "Dejanos un comentario sobre que cambiarias para mejorar tu experiencia",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "1d57520bc950b23ba3eda02dd2d7f3f3",
+    "from": "5493512275549"
+  },
+  {
+    "ref": "5f13d3ce-ab76-4145-a289-407b8ca21263",
+    "keyword": "1d57520bc950b23ba3eda02dd2d7f3f3",
+    "answer": "1",
+    "options": {},
+    "from": "5493512275549",
+    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
+  },
+  {
+    "ref": "ans_f1c6ce8f-7c4c-4cd5-bdaa-7f5805160e78",
+    "keyword": "ans_6810c56a-1267-406f-a79a-56ec6e9da7af",
+    "answer": "Si te gustaria recibir informacion de Pizzeria Popular como promociones, descuentos o eventos especiales, dejanos un correo. \nDe lo contrario envia \"NO\"",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "4ccfe5aa86307ab64885a4930cf95120",
+    "from": "5493512275549"
+  },
+  {
+    "ref": "27733a5c-fcbd-4b74-892a-35ce8551fc11",
+    "keyword": "4ccfe5aa86307ab64885a4930cf95120",
+    "answer": "1",
+    "options": {},
+    "from": "5493512275549",
+    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
+  },
+  {
+    "ref": "ans_191b6f0c-9000-4fe6-9392-fc2bf90f7f8c",
+    "keyword": "ans_f1c6ce8f-7c4c-4cd5-bdaa-7f5805160e78",
+    "answer": "Muchas gracias por tu devolucion\nEsperamos poder atenderte nuevamente pronto\nEscriba vMozo para volver a comenzar",
+    "options": {
+      "media": null,
       "buttons": [],
       "capture": false,
       "child": null,
@@ -880,1398 +1118,7 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "27f15d188ceb7e73657e168062f77f27",
-    "from": "5493515924253"
-  },
-  {
-    "ref": "ans_a0e64a5d-992e-4fb7-a7cc-b629c6ba56a3",
-    "keyword": "ans_887c34a6-0433-4c38-915e-89ffae30265b",
-    "answer": "Si desea realizar el pedido de su mesa envie \"pedir\" o para salir envie \"salir\"",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": true,
-      "child": null,
-      "delay": 0,
-      "nested": [
-        {
-          "ref": "key_10dab699-865a-4bec-a426-3683babf367c",
-          "keyword": [
-            "2",
-            "pedir"
-          ],
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "b64e4feda41f5d78c023d65fbd2b4127"
-        },
-        {
-          "ref": "ans_25d857af-27fb-40be-9ce6-bc2b6b6945e3",
-          "keyword": "key_10dab699-865a-4bec-a426-3683babf367c",
-          "answer": "Cuantos comensales son ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "8b33f6f4210fde478733f8d2635c8152"
-        },
-        {
-          "ref": "ans_e0e0858d-ce27-423c-9c58-5d81acd563b9",
-          "keyword": "ans_25d857af-27fb-40be-9ce6-bc2b6b6945e3",
-          "answer": "Que va a comer el comensal N° 1 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "cb3b54870a2dd8a7da1cb2868fc62c39"
-        },
-        {
-          "ref": "ans_421aa67a-e7cc-4da7-a7c9-d96ecddeb797",
-          "keyword": "ans_e0e0858d-ce27-423c-9c58-5d81acd563b9",
-          "answer": "Que va a tomar el comensal N° 1 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "ed52bcdab82c73cfe4fe78393c8fb0b6"
-        },
-        {
-          "ref": "ans_b9edb691-fdbe-4dc0-9a69-2b5e500713cf",
-          "keyword": "ans_421aa67a-e7cc-4da7-a7c9-d96ecddeb797",
-          "answer": "Que va a comer el comensal N° 2 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "80eb8ec2913410fa3abfb660e94f18e4"
-        },
-        {
-          "ref": "ans_0cd26326-2775-4799-b22f-f1bcea2c0c2a",
-          "keyword": "ans_b9edb691-fdbe-4dc0-9a69-2b5e500713cf",
-          "answer": "Que va a tomar el comensal N° 2 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "7c79b1f2cf8cbe360cbc0faecfab56ed"
-        },
-        {
-          "ref": "ans_efa1a1a8-abd8-4303-b0f9-92548be25b25",
-          "keyword": "ans_0cd26326-2775-4799-b22f-f1bcea2c0c2a",
-          "answer": "Que va a comer el comensal N° 3 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "12285a7c02499f4ae82cb640df3d8f43"
-        },
-        {
-          "ref": "ans_3723c637-fccf-4baa-a9df-fa464faa3021",
-          "keyword": "ans_efa1a1a8-abd8-4303-b0f9-92548be25b25",
-          "answer": "Que va a tomar el comensal N° 3 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "5598ed782a0091d286e93d0305c42ef0"
-        },
-        {
-          "ref": "ans_c9487d25-f9a3-47f2-8e8e-e0faa96f67fb",
-          "keyword": "ans_3723c637-fccf-4baa-a9df-fa464faa3021",
-          "answer": "Que va a comer el comensal N° 4 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "c7635638909243ebee7f1f50a93bb8be"
-        },
-        {
-          "ref": "ans_e9dc1ade-eb69-419c-a0f0-fd4cfe590f3a",
-          "keyword": "ans_c9487d25-f9a3-47f2-8e8e-e0faa96f67fb",
-          "answer": "Que va a tomar el comensal N° 4 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "b4846dd439c972872e02375594db9702"
-        },
-        {
-          "ref": "ans_b72bdf7d-afac-4f29-beb2-85358b63f872",
-          "keyword": "ans_e9dc1ade-eb69-419c-a0f0-fd4cfe590f3a",
-          "answer": "Que va a comer el comensal N° 5 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "1e0947f8d5df360c06069cc4ea9f3c8c"
-        },
-        {
-          "ref": "ans_be9885fd-8992-44a3-bf5f-a6cc6bcde1c7",
-          "keyword": "ans_b72bdf7d-afac-4f29-beb2-85358b63f872",
-          "answer": "Que va a tomar el comensal N° 5 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "39dd6867c056b2bffb7c59f1f8c976b5"
-        },
-        {
-          "ref": "ans_53bdb1ab-8e9c-4e10-86f5-ff644fb87c05",
-          "keyword": "ans_be9885fd-8992-44a3-bf5f-a6cc6bcde1c7",
-          "answer": "Que va a comer el comensal N° 6 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "abeff4522daa44132240fcdfc81706d3"
-        },
-        {
-          "ref": "ans_50375164-f5ae-4321-8cf0-b91d41c9f962",
-          "keyword": "ans_53bdb1ab-8e9c-4e10-86f5-ff644fb87c05",
-          "answer": "Que va a tomar el comensal N° 6 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "e94c2b2411069b88ca27c9361ea7c7cd"
-        },
-        {
-          "ref": "ans_6e5aed48-8755-456a-9738-c378b7610fa3",
-          "keyword": "ans_50375164-f5ae-4321-8cf0-b91d41c9f962",
-          "answer": "Que va a comer el comensal N° 7 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "b949775c03885bdb03ed56d7c5732980"
-        },
-        {
-          "ref": "ans_fc0ee994-d12c-4c13-b005-8136fb69ec20",
-          "keyword": "ans_6e5aed48-8755-456a-9738-c378b7610fa3",
-          "answer": "Que va a tomar el comensal N° 7 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "a2d9525d48e0cbc8dad70101bbd0b870"
-        },
-        {
-          "ref": "ans_47dc7fb9-70fb-41af-9dc2-9ceec1dc9633",
-          "keyword": "ans_fc0ee994-d12c-4c13-b005-8136fb69ec20",
-          "answer": "Que va a comer el comensal N° 8 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "b78ff146997dceb93d066eab013fa5ca"
-        },
-        {
-          "ref": "ans_2ada4c70-d716-40b3-b23f-03102976f8a5",
-          "keyword": "ans_47dc7fb9-70fb-41af-9dc2-9ceec1dc9633",
-          "answer": "Que va a tomar el comensal N° 8 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "1105e9f57caf855fc73a6e58be481d70"
-        },
-        {
-          "ref": "ans_d769c7be-33c5-4af5-99ce-fef30ce72576",
-          "keyword": "ans_2ada4c70-d716-40b3-b23f-03102976f8a5",
-          "answer": "Que va a comer el comensal N° 9 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "e5382f3083ca2f308719d104c20277cf"
-        },
-        {
-          "ref": "ans_38b1383e-a7ca-4e83-9ed6-43b01571ee48",
-          "keyword": "ans_d769c7be-33c5-4af5-99ce-fef30ce72576",
-          "answer": "Que va a tomar el comensal N° 9 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "5e1bea4f0d668be4e93956bdd9b77fe8"
-        },
-        {
-          "ref": "ans_808dad6b-e19a-448e-b60d-48233aff251f",
-          "keyword": "ans_38b1383e-a7ca-4e83-9ed6-43b01571ee48",
-          "answer": "Que va a comer el comensal N° 10 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "a76b501750764be677e1cbb7b2ab3a0d"
-        },
-        {
-          "ref": "ans_d2986ac9-fc35-4c25-98d4-407d5aea96a9",
-          "keyword": "ans_808dad6b-e19a-448e-b60d-48233aff251f",
-          "answer": "Que va a tomar el comensal N° 10 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "1bd226d2333b0f93072858a83b921dc3"
-        }
-      ],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "a08d8b5c79f02ee250b97180e1b4ea72",
-    "from": "5493515924253"
-  },
-  {
-    "ref": "adccf51e-87a3-4377-b71a-fc1307d04cae",
-    "keyword": "a08d8b5c79f02ee250b97180e1b4ea72",
-    "answer": "Pedir",
-    "options": {},
-    "from": "5493515924253",
-    "refSerialize": "f85f44e9c5bd1200d4aafd800d13c3a1"
-  },
-  {
-    "ref": "ans_25d857af-27fb-40be-9ce6-bc2b6b6945e3",
-    "keyword": "key_10dab699-865a-4bec-a426-3683babf367c",
-    "answer": "Cuantos comensales son ?",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": true,
-      "child": null,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "8b33f6f4210fde478733f8d2635c8152",
-    "from": "5493515924253"
-  },
-  {
-    "ref": "b4d02136-0af9-455f-968d-3c9a262b7f78",
-    "keyword": "8b33f6f4210fde478733f8d2635c8152",
-    "answer": "2",
-    "options": {},
-    "from": "5493515924253",
-    "refSerialize": "2294c3d08b53a6effa5df696a15b9d30"
-  },
-  {
-    "ref": "ans_e0e0858d-ce27-423c-9c58-5d81acd563b9",
-    "keyword": "ans_25d857af-27fb-40be-9ce6-bc2b6b6945e3",
-    "answer": "Que va a comer el comensal N° 1 ?",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": true,
-      "child": null,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "cb3b54870a2dd8a7da1cb2868fc62c39",
-    "from": "5493515924253"
-  },
-  {
-    "ref": "04b81e11-6639-416b-9cd8-523c36e1a7a0",
-    "keyword": "cb3b54870a2dd8a7da1cb2868fc62c39",
-    "answer": "Milanesa",
-    "options": {},
-    "from": "5493515924253",
-    "refSerialize": "1e66844936546c007d9b81698baac0ca"
-  },
-  {
-    "ref": "ans_421aa67a-e7cc-4da7-a7c9-d96ecddeb797",
-    "keyword": "ans_e0e0858d-ce27-423c-9c58-5d81acd563b9",
-    "answer": "Que va a tomar el comensal N° 1 ?",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": true,
-      "child": null,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "ed52bcdab82c73cfe4fe78393c8fb0b6",
-    "from": "5493515924253"
-  },
-  {
-    "ref": "773ad25a-d192-439e-b12f-0ee749d0c03f",
-    "keyword": "ed52bcdab82c73cfe4fe78393c8fb0b6",
-    "answer": "Coca",
-    "options": {},
-    "from": "5493515924253",
-    "refSerialize": "55add271b68ef7b44b4491fc772b02e0"
-  },
-  {
-    "ref": "ans_b9edb691-fdbe-4dc0-9a69-2b5e500713cf",
-    "keyword": "ans_421aa67a-e7cc-4da7-a7c9-d96ecddeb797",
-    "answer": "Que va a comer el comensal N° 2 ?",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": true,
-      "child": null,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "80eb8ec2913410fa3abfb660e94f18e4",
-    "from": "5493515924253"
-  },
-  {
-    "ref": "2c607bf2-2724-4ae8-81f9-f5754125a1ba",
-    "keyword": "80eb8ec2913410fa3abfb660e94f18e4",
-    "answer": "Pollo",
-    "options": {},
-    "from": "5493515924253",
-    "refSerialize": "aee02162e47e65cc9fff8238c7c73579"
-  },
-  {
-    "ref": "ans_0cd26326-2775-4799-b22f-f1bcea2c0c2a",
-    "keyword": "ans_b9edb691-fdbe-4dc0-9a69-2b5e500713cf",
-    "answer": "Que va a tomar el comensal N° 2 ?",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": true,
-      "child": null,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "7c79b1f2cf8cbe360cbc0faecfab56ed",
-    "from": "5493515924253"
-  },
-  {
-    "ref": "ba22c7ad-e18b-4c7b-94c9-bc41acdb8737",
-    "keyword": "7c79b1f2cf8cbe360cbc0faecfab56ed",
-    "answer": "Pepsi",
-    "options": {},
-    "from": "5493515924253",
-    "refSerialize": "dff8b4cb44d2eb47d98d0258f99d7d90"
-  },
-  {
-    "ref": "d4763e0d-5d63-4005-b081-410230c280e2",
-    "keyword": "dff8b4cb44d2eb47d98d0258f99d7d90",
-    "answer": "Vmozo",
-    "options": {},
-    "from": "5493515924253",
-    "refSerialize": "5278f6f7cbe0ece654ee6804ac0be919"
-  },
-  {
-    "ref": "ans_fed962d9-0a4f-491a-9a61-a95650827579",
-    "keyword": "key_93398747-77ee-4d35-b375-c567953c6eaf",
-    "answer": "Hola bienvenido a vMozo",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "bfc7618fbf848551220ce3156b88131c",
-    "from": "5493515924253"
-  },
-  {
-    "ref": "ans_721b94d5-f78c-4159-8663-28a48e223a2d",
-    "keyword": "ans_fed962d9-0a4f-491a-9a61-a95650827579",
-    "answer": "Elija la opcion deseada",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": true,
-      "child": null,
-      "delay": 0,
-      "nested": [
-        {
-          "ref": "key_ab1d9a01-6869-4761-a15a-81e93f8b33a5",
-          "keyword": "1",
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "065e0005da6e5c278a53691e53b48955"
-        },
-        {
-          "ref": "ans_887c34a6-0433-4c38-915e-89ffae30265b",
-          "keyword": "key_ab1d9a01-6869-4761-a15a-81e93f8b33a5",
-          "answer": "Aca te dejo la carta",
-          "options": {
-            "media": "https://enlacocina.b-cdn.net/wp-content/uploads/2021/02/carta2.jpg",
-            "buttons": [],
-            "capture": false,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": false
-          },
-          "refSerialize": "27f15d188ceb7e73657e168062f77f27"
-        },
-        {
-          "ref": "ans_a0e64a5d-992e-4fb7-a7cc-b629c6ba56a3",
-          "keyword": "ans_887c34a6-0433-4c38-915e-89ffae30265b",
-          "answer": "Si desea realizar el pedido de su mesa envie \"pedir\" o para salir envie \"salir\"",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [
-              {
-                "ref": "key_10dab699-865a-4bec-a426-3683babf367c",
-                "keyword": [
-                  "2",
-                  "pedir"
-                ],
-                "options": {
-                  "sensitive": false,
-                  "regex": false
-                },
-                "refSerialize": "b64e4feda41f5d78c023d65fbd2b4127"
-              },
-              {
-                "ref": "ans_25d857af-27fb-40be-9ce6-bc2b6b6945e3",
-                "keyword": "key_10dab699-865a-4bec-a426-3683babf367c",
-                "answer": "Cuantos comensales son ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "8b33f6f4210fde478733f8d2635c8152"
-              },
-              {
-                "ref": "ans_e0e0858d-ce27-423c-9c58-5d81acd563b9",
-                "keyword": "ans_25d857af-27fb-40be-9ce6-bc2b6b6945e3",
-                "answer": "Que va a comer el comensal N° 1 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "cb3b54870a2dd8a7da1cb2868fc62c39"
-              },
-              {
-                "ref": "ans_421aa67a-e7cc-4da7-a7c9-d96ecddeb797",
-                "keyword": "ans_e0e0858d-ce27-423c-9c58-5d81acd563b9",
-                "answer": "Que va a tomar el comensal N° 1 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "ed52bcdab82c73cfe4fe78393c8fb0b6"
-              },
-              {
-                "ref": "ans_b9edb691-fdbe-4dc0-9a69-2b5e500713cf",
-                "keyword": "ans_421aa67a-e7cc-4da7-a7c9-d96ecddeb797",
-                "answer": "Que va a comer el comensal N° 2 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "80eb8ec2913410fa3abfb660e94f18e4"
-              },
-              {
-                "ref": "ans_0cd26326-2775-4799-b22f-f1bcea2c0c2a",
-                "keyword": "ans_b9edb691-fdbe-4dc0-9a69-2b5e500713cf",
-                "answer": "Que va a tomar el comensal N° 2 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "7c79b1f2cf8cbe360cbc0faecfab56ed"
-              },
-              {
-                "ref": "ans_efa1a1a8-abd8-4303-b0f9-92548be25b25",
-                "keyword": "ans_0cd26326-2775-4799-b22f-f1bcea2c0c2a",
-                "answer": "Que va a comer el comensal N° 3 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "12285a7c02499f4ae82cb640df3d8f43"
-              },
-              {
-                "ref": "ans_3723c637-fccf-4baa-a9df-fa464faa3021",
-                "keyword": "ans_efa1a1a8-abd8-4303-b0f9-92548be25b25",
-                "answer": "Que va a tomar el comensal N° 3 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "5598ed782a0091d286e93d0305c42ef0"
-              },
-              {
-                "ref": "ans_c9487d25-f9a3-47f2-8e8e-e0faa96f67fb",
-                "keyword": "ans_3723c637-fccf-4baa-a9df-fa464faa3021",
-                "answer": "Que va a comer el comensal N° 4 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "c7635638909243ebee7f1f50a93bb8be"
-              },
-              {
-                "ref": "ans_e9dc1ade-eb69-419c-a0f0-fd4cfe590f3a",
-                "keyword": "ans_c9487d25-f9a3-47f2-8e8e-e0faa96f67fb",
-                "answer": "Que va a tomar el comensal N° 4 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "b4846dd439c972872e02375594db9702"
-              },
-              {
-                "ref": "ans_b72bdf7d-afac-4f29-beb2-85358b63f872",
-                "keyword": "ans_e9dc1ade-eb69-419c-a0f0-fd4cfe590f3a",
-                "answer": "Que va a comer el comensal N° 5 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "1e0947f8d5df360c06069cc4ea9f3c8c"
-              },
-              {
-                "ref": "ans_be9885fd-8992-44a3-bf5f-a6cc6bcde1c7",
-                "keyword": "ans_b72bdf7d-afac-4f29-beb2-85358b63f872",
-                "answer": "Que va a tomar el comensal N° 5 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "39dd6867c056b2bffb7c59f1f8c976b5"
-              },
-              {
-                "ref": "ans_53bdb1ab-8e9c-4e10-86f5-ff644fb87c05",
-                "keyword": "ans_be9885fd-8992-44a3-bf5f-a6cc6bcde1c7",
-                "answer": "Que va a comer el comensal N° 6 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "abeff4522daa44132240fcdfc81706d3"
-              },
-              {
-                "ref": "ans_50375164-f5ae-4321-8cf0-b91d41c9f962",
-                "keyword": "ans_53bdb1ab-8e9c-4e10-86f5-ff644fb87c05",
-                "answer": "Que va a tomar el comensal N° 6 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "e94c2b2411069b88ca27c9361ea7c7cd"
-              },
-              {
-                "ref": "ans_6e5aed48-8755-456a-9738-c378b7610fa3",
-                "keyword": "ans_50375164-f5ae-4321-8cf0-b91d41c9f962",
-                "answer": "Que va a comer el comensal N° 7 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "b949775c03885bdb03ed56d7c5732980"
-              },
-              {
-                "ref": "ans_fc0ee994-d12c-4c13-b005-8136fb69ec20",
-                "keyword": "ans_6e5aed48-8755-456a-9738-c378b7610fa3",
-                "answer": "Que va a tomar el comensal N° 7 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "a2d9525d48e0cbc8dad70101bbd0b870"
-              },
-              {
-                "ref": "ans_47dc7fb9-70fb-41af-9dc2-9ceec1dc9633",
-                "keyword": "ans_fc0ee994-d12c-4c13-b005-8136fb69ec20",
-                "answer": "Que va a comer el comensal N° 8 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "b78ff146997dceb93d066eab013fa5ca"
-              },
-              {
-                "ref": "ans_2ada4c70-d716-40b3-b23f-03102976f8a5",
-                "keyword": "ans_47dc7fb9-70fb-41af-9dc2-9ceec1dc9633",
-                "answer": "Que va a tomar el comensal N° 8 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "1105e9f57caf855fc73a6e58be481d70"
-              },
-              {
-                "ref": "ans_d769c7be-33c5-4af5-99ce-fef30ce72576",
-                "keyword": "ans_2ada4c70-d716-40b3-b23f-03102976f8a5",
-                "answer": "Que va a comer el comensal N° 9 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "e5382f3083ca2f308719d104c20277cf"
-              },
-              {
-                "ref": "ans_38b1383e-a7ca-4e83-9ed6-43b01571ee48",
-                "keyword": "ans_d769c7be-33c5-4af5-99ce-fef30ce72576",
-                "answer": "Que va a tomar el comensal N° 9 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "5e1bea4f0d668be4e93956bdd9b77fe8"
-              },
-              {
-                "ref": "ans_808dad6b-e19a-448e-b60d-48233aff251f",
-                "keyword": "ans_38b1383e-a7ca-4e83-9ed6-43b01571ee48",
-                "answer": "Que va a comer el comensal N° 10 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "a76b501750764be677e1cbb7b2ab3a0d"
-              },
-              {
-                "ref": "ans_d2986ac9-fc35-4c25-98d4-407d5aea96a9",
-                "keyword": "ans_808dad6b-e19a-448e-b60d-48233aff251f",
-                "answer": "Que va a tomar el comensal N° 10 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "1bd226d2333b0f93072858a83b921dc3"
-              }
-            ],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "a08d8b5c79f02ee250b97180e1b4ea72"
-        },
-        {
-          "ref": "key_10dab699-865a-4bec-a426-3683babf367c",
-          "keyword": [
-            "2",
-            "pedir"
-          ],
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "b64e4feda41f5d78c023d65fbd2b4127"
-        },
-        {
-          "ref": "ans_25d857af-27fb-40be-9ce6-bc2b6b6945e3",
-          "keyword": "key_10dab699-865a-4bec-a426-3683babf367c",
-          "answer": "Cuantos comensales son ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "8b33f6f4210fde478733f8d2635c8152"
-        },
-        {
-          "ref": "ans_e0e0858d-ce27-423c-9c58-5d81acd563b9",
-          "keyword": "ans_25d857af-27fb-40be-9ce6-bc2b6b6945e3",
-          "answer": "Que va a comer el comensal N° 1 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "cb3b54870a2dd8a7da1cb2868fc62c39"
-        },
-        {
-          "ref": "ans_421aa67a-e7cc-4da7-a7c9-d96ecddeb797",
-          "keyword": "ans_e0e0858d-ce27-423c-9c58-5d81acd563b9",
-          "answer": "Que va a tomar el comensal N° 1 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "ed52bcdab82c73cfe4fe78393c8fb0b6"
-        },
-        {
-          "ref": "ans_b9edb691-fdbe-4dc0-9a69-2b5e500713cf",
-          "keyword": "ans_421aa67a-e7cc-4da7-a7c9-d96ecddeb797",
-          "answer": "Que va a comer el comensal N° 2 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "80eb8ec2913410fa3abfb660e94f18e4"
-        },
-        {
-          "ref": "ans_0cd26326-2775-4799-b22f-f1bcea2c0c2a",
-          "keyword": "ans_b9edb691-fdbe-4dc0-9a69-2b5e500713cf",
-          "answer": "Que va a tomar el comensal N° 2 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "7c79b1f2cf8cbe360cbc0faecfab56ed"
-        },
-        {
-          "ref": "ans_efa1a1a8-abd8-4303-b0f9-92548be25b25",
-          "keyword": "ans_0cd26326-2775-4799-b22f-f1bcea2c0c2a",
-          "answer": "Que va a comer el comensal N° 3 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "12285a7c02499f4ae82cb640df3d8f43"
-        },
-        {
-          "ref": "ans_3723c637-fccf-4baa-a9df-fa464faa3021",
-          "keyword": "ans_efa1a1a8-abd8-4303-b0f9-92548be25b25",
-          "answer": "Que va a tomar el comensal N° 3 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "5598ed782a0091d286e93d0305c42ef0"
-        },
-        {
-          "ref": "ans_c9487d25-f9a3-47f2-8e8e-e0faa96f67fb",
-          "keyword": "ans_3723c637-fccf-4baa-a9df-fa464faa3021",
-          "answer": "Que va a comer el comensal N° 4 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "c7635638909243ebee7f1f50a93bb8be"
-        },
-        {
-          "ref": "ans_e9dc1ade-eb69-419c-a0f0-fd4cfe590f3a",
-          "keyword": "ans_c9487d25-f9a3-47f2-8e8e-e0faa96f67fb",
-          "answer": "Que va a tomar el comensal N° 4 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "b4846dd439c972872e02375594db9702"
-        },
-        {
-          "ref": "ans_b72bdf7d-afac-4f29-beb2-85358b63f872",
-          "keyword": "ans_e9dc1ade-eb69-419c-a0f0-fd4cfe590f3a",
-          "answer": "Que va a comer el comensal N° 5 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "1e0947f8d5df360c06069cc4ea9f3c8c"
-        },
-        {
-          "ref": "ans_be9885fd-8992-44a3-bf5f-a6cc6bcde1c7",
-          "keyword": "ans_b72bdf7d-afac-4f29-beb2-85358b63f872",
-          "answer": "Que va a tomar el comensal N° 5 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "39dd6867c056b2bffb7c59f1f8c976b5"
-        },
-        {
-          "ref": "ans_53bdb1ab-8e9c-4e10-86f5-ff644fb87c05",
-          "keyword": "ans_be9885fd-8992-44a3-bf5f-a6cc6bcde1c7",
-          "answer": "Que va a comer el comensal N° 6 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "abeff4522daa44132240fcdfc81706d3"
-        },
-        {
-          "ref": "ans_50375164-f5ae-4321-8cf0-b91d41c9f962",
-          "keyword": "ans_53bdb1ab-8e9c-4e10-86f5-ff644fb87c05",
-          "answer": "Que va a tomar el comensal N° 6 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "e94c2b2411069b88ca27c9361ea7c7cd"
-        },
-        {
-          "ref": "ans_6e5aed48-8755-456a-9738-c378b7610fa3",
-          "keyword": "ans_50375164-f5ae-4321-8cf0-b91d41c9f962",
-          "answer": "Que va a comer el comensal N° 7 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "b949775c03885bdb03ed56d7c5732980"
-        },
-        {
-          "ref": "ans_fc0ee994-d12c-4c13-b005-8136fb69ec20",
-          "keyword": "ans_6e5aed48-8755-456a-9738-c378b7610fa3",
-          "answer": "Que va a tomar el comensal N° 7 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "a2d9525d48e0cbc8dad70101bbd0b870"
-        },
-        {
-          "ref": "ans_47dc7fb9-70fb-41af-9dc2-9ceec1dc9633",
-          "keyword": "ans_fc0ee994-d12c-4c13-b005-8136fb69ec20",
-          "answer": "Que va a comer el comensal N° 8 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "b78ff146997dceb93d066eab013fa5ca"
-        },
-        {
-          "ref": "ans_2ada4c70-d716-40b3-b23f-03102976f8a5",
-          "keyword": "ans_47dc7fb9-70fb-41af-9dc2-9ceec1dc9633",
-          "answer": "Que va a tomar el comensal N° 8 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "1105e9f57caf855fc73a6e58be481d70"
-        },
-        {
-          "ref": "ans_d769c7be-33c5-4af5-99ce-fef30ce72576",
-          "keyword": "ans_2ada4c70-d716-40b3-b23f-03102976f8a5",
-          "answer": "Que va a comer el comensal N° 9 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "e5382f3083ca2f308719d104c20277cf"
-        },
-        {
-          "ref": "ans_38b1383e-a7ca-4e83-9ed6-43b01571ee48",
-          "keyword": "ans_d769c7be-33c5-4af5-99ce-fef30ce72576",
-          "answer": "Que va a tomar el comensal N° 9 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "5e1bea4f0d668be4e93956bdd9b77fe8"
-        },
-        {
-          "ref": "ans_808dad6b-e19a-448e-b60d-48233aff251f",
-          "keyword": "ans_38b1383e-a7ca-4e83-9ed6-43b01571ee48",
-          "answer": "Que va a comer el comensal N° 10 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "a76b501750764be677e1cbb7b2ab3a0d"
-        },
-        {
-          "ref": "ans_d2986ac9-fc35-4c25-98d4-407d5aea96a9",
-          "keyword": "ans_808dad6b-e19a-448e-b60d-48233aff251f",
-          "answer": "Que va a tomar el comensal N° 10 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "1bd226d2333b0f93072858a83b921dc3"
-        },
-        {
-          "ref": "key_3e05069d-b3bc-40f2-ab32-38693b06b686",
-          "keyword": "3",
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "741cd7b8654e06cc47783fa3ba233c53"
-        },
-        {
-          "ref": "ans_0a9a16ea-a532-44b6-a6e3-75ff48224ea5",
-          "keyword": "key_3e05069d-b3bc-40f2-ab32-38693b06b686",
-          "answer": "En un solo mensaje, indique que desea agregar a su mesa",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "b04a492016aba17740d1aad8534fb5fe"
-        },
-        {
-          "ref": "key_d9c40345-1014-4d20-a2e6-ea328be7e75a",
-          "keyword": "4",
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "fc09f52170be47fcb14a1cee9c5d3c52"
-        },
-        {
-          "ref": "ans_dffee209-c083-4f15-990e-21531e2e951b",
-          "keyword": "key_d9c40345-1014-4d20-a2e6-ea328be7e75a",
-          "answer": "El mozo ya fue notificado, a la brevedad se acercara a la mesa",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": false,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "174f69fe0b05d74c146c52c056743392"
-        },
-        {
-          "ref": "key_c56275d6-78ca-4377-90c4-2ed92b601b78",
-          "keyword": "5",
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "660d6f380cd3d2aa67431f161ba4eccf"
-        },
-        {
-          "ref": "ans_f20045ff-7152-4662-bd0f-7babe3e9af9d",
-          "keyword": "key_c56275d6-78ca-4377-90c4-2ed92b601b78",
-          "answer": "El mozo ya fue notificado, a la brevedad le llevara la cuenta a la mesa",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": false,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "11e2ac4e461c91c1397eeaf15bc57a66"
-        }
-      ],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "fcf957390cdf2541d4dcabc5855abb56",
-    "from": "5493515924253"
-  },
-  {
-    "ref": "12e741cc-e53d-4144-a720-733cc40c1607",
-    "answer": "1. Ver la carta\n2. Realizar un pedido\n3. Agregar algo a un pedido\n4. Llamar al mozo\n5. Pedir la cuenta\n6. Salir",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false
-    },
-    "from": "5493515924253",
-    "refSerialize": "be0658c15ca121f724f26224c3a5c4db"
-  },
-  {
-    "ref": "72ff54f0-3030-4293-880e-24728e6cb7c1",
-    "keyword": "fcf957390cdf2541d4dcabc5855abb56",
-    "answer": "4",
-    "options": {},
-    "from": "5493515924253",
-    "refSerialize": "e8139b7fa2fbc1b48f247924f8ad1961"
-  },
-  {
-    "ref": "ans_dffee209-c083-4f15-990e-21531e2e951b",
-    "keyword": "key_d9c40345-1014-4d20-a2e6-ea328be7e75a",
-    "answer": "El mozo ya fue notificado, a la brevedad se acercara a la mesa",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "174f69fe0b05d74c146c52c056743392",
-    "from": "5493515924253"
+    "refSerialize": "83c9de72161abdf908be20311c8d12f4",
+    "from": "5493512275549"
   }
 ]

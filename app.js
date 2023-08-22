@@ -9,13 +9,14 @@ const flujoCarta = require("./components/flujoCarta.js")
 const flujoCuenta = require("./components/flujoCuenta.js")
 const flujoMozo = require("./components/flujoMozo.js")
 const flujoPedido = require("./components/flujoPedido.js")
+const flujoSalir = require("./components/flujoSalir.js")
 
 const {verificarMesa,verificarTiempo} = require("./components/auxPedidos.js")
 const {isOwner} = require("./components/auxClientes.js")
 const {enviarQrs} = require("./components/auxQrs.js")
 
 const flowPrincipal = addKeyword(['vMozo'])
-    .addAnswer('Hola bienvenido a vMozo',{},
+    .addAnswer(['Hola bienvenido a Pizzeria Popular','Soy vMozo su mozo virtual.'],{},
     async (ctx,{flowDynamic,endFlow}) => {
 
         const validator = verificarMesa(ctx.body,ctx.from)
@@ -35,12 +36,12 @@ const flowPrincipal = addKeyword(['vMozo'])
         if(flag){
             setTimeout(()=> {
                 flowDynamic([
-                    '1. Ver la carta\n2. Realizar un pedido\n3. Agregar algo a un pedido\n4. Llamar al mozo\n5. Pedir la cuenta\n6. Descargar QRs\n7. Salir'])
+                    '1. Ver el Menú\n2. Ordenar\n3. Agregar algo a mi pedido\n4. Llamar al mozo\n5. Pedir la cuenta\n6. Descargar QRs\n7. Salir'])
                 },500)
         }else{
             setTimeout(()=> {
                 flowDynamic([
-                    '1. Ver la carta\n2. Realizar un pedido\n3. Agregar algo a un pedido\n4. Llamar al mozo\n5. Pedir la cuenta\n6. Salir'])
+                    '1. Ver el Menú\n2. Ordenar\n3. Agregar algo a mi pedido\n4. Llamar al mozo\n5. Pedir la cuenta\n6. Salir'])
                 },500)
         }
        
@@ -54,10 +55,6 @@ const flowPrincipal = addKeyword(['vMozo'])
         },
         async (ctx, {flowDynamic,endFlow,provider}) => {
             
-            if(!isOwner(ctx.from) && ctx.body === "6"){
-                await flowDynamic(['Gracias por utilizar este servicio','Escriba vMozo para volver a comenzar'])
-                return endFlow()
-            }
             if(isOwner(ctx.from) && ctx.body === "7"){
                 await flowDynamic(['Gracias por utilizar este servicio','Escriba vMozo para volver a comenzar'])
                 return endFlow()
@@ -68,7 +65,7 @@ const flowPrincipal = addKeyword(['vMozo'])
             }
         
         },
-        [flujoCarta,flujoPedido,flujoAgregar,flujoMozo,flujoCuenta]
+        [flujoCarta,flujoPedido,flujoAgregar,flujoMozo,flujoCuenta,flujoSalir]
     )
 
 const main = async () => {

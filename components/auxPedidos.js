@@ -1,3 +1,8 @@
+const dotenv = require("dotenv");
+dotenv.config();
+
+const nodemailer = require("nodemailer")
+
 let pedidos = {}
 
 const addProps = (from,props) => {
@@ -57,7 +62,7 @@ const { mesa, agregar } = pedido;
   const prov = provider.getInstance()
 
   const telefono = from + '@s.whatsapp.net'
-  await prov.sendMessage(telefono,{text: "A la brevedad el mozo llevara los productos a la mesa. Muchas gracias."})
+  await prov.sendMessage(telefono,{text: "A la brevedad el mozo llevará los productos a la mesa. Muchas gracias."})
   await prov.sendMessage(telefono,{text: agregarString})
   await prov.sendMessage(telefono,{text: "Escriba vMozo para volver a comenzar"})
 
@@ -157,4 +162,46 @@ const verificarTiempo = (from) => {
   return false; // Si no hay pedido o no se encuentra la hora guardada
 };
 
-module.exports = {verificarTiempo,pedirCuenta,llamarMozo,verificarMesa,esNumeroPositivo,addProps,deletePedidosData,getProp,enviarPedido,agregarItems}
+const sendEmail = async (from) => {
+
+  let transporter = nodemailer.createTransport({
+    host: "smtp.gmail.com",
+    port: 465,
+    secure: true, // true for 465, false for other ports
+    auth: {
+      user: process.env.KLG_MAIL, // generated ethereal user
+      pass: process.env.GMAIL_PASS, // generated ethereal password
+    },
+  });
+
+  let data = {
+    from: `Encuesta vMozo <${process.env.SENDER}>`, // sender address
+    to: process.env.OWNER_MAIL, // list of receivers
+    subject: `Encuesta vMozo`, // Subject line
+    text: `Encuesta vMozo`, // plain text body
+  }
+
+  data.html = `
+    <div>
+    <p>Encuesta de vMozo</p>
+    <p>Cliente que respondio la encuesta: ${from}</p>
+    <p>Calificacion del restaurante: ${pedidos[from].q1}</p>
+    <p>Calificacion de vMozo: ${pedidos[from].q2}</p>
+    <p>Comentario para mejorar: ${pedidos[from].q3}</p>
+    <p>Correo del cliente para promociones: ${pedidos[from].q4}</p>
+    
+    </div>
+    ` // html body
+  
+  await transporter.sendMail(data);
+
+  if (pedidos[from]) {
+    delete pedidos[from].q1;
+    delete pedidos[from].q2;
+    delete pedidos[from].q3;
+    delete pedidos[from].q4;
+  }
+};
+
+
+module.exports = {sendEmail,verificarTiempo,pedirCuenta,llamarMozo,verificarMesa,esNumeroPositivo,addProps,deletePedidosData,getProp,enviarPedido,agregarItems}
