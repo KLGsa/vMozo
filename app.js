@@ -12,8 +12,11 @@ const flujoPedido = require("./components/flujoPedido.js")
 const flujoSalir = require("./components/flujoSalir.js")
 
 const {verificarMesa,verificarTiempo} = require("./components/auxPedidos.js")
-const {isOwner} = require("./components/auxClientes.js")
-const {enviarQrs} = require("./components/auxQrs.js")
+const {addProps} = require('./components/auxPedidos.js')
+
+const fs = require('fs');
+
+const { downloadMediaMessage } = require('@adiwajshing/baileys')
 
 const flowPrincipal = addKeyword(['vMozo'])
     .addAnswer(['Hola bienvenido a Pizzeria Popular','Soy vMozo su mozo virtual.'],{},
@@ -31,20 +34,11 @@ const flowPrincipal = addKeyword(['vMozo'])
             return endFlow('Se vencio la sesion. Por favor escanee el QR de la mesa para volver a comenzar')
         }
 
-        const flag = isOwner(ctx.from)
-
-        if(flag){
-            setTimeout(()=> {
-                flowDynamic([
-                    '1. Ver el Menú\n2. Ordenar\n3. Agregar algo a mi pedido\n4. Llamar al mozo\n5. Pedir la cuenta\n6. Descargar QRs\n7. Salir'])
-                },500)
-        }else{
             setTimeout(()=> {
                 flowDynamic([
                     '1. Ver el Menú\n2. Ordenar\n3. Agregar algo a mi pedido\n4. Llamar al mozo\n5. Pedir la cuenta\n6. Salir'])
                 },500)
-        }
-       
+
     })
     .addAnswer(
         [
@@ -53,24 +47,71 @@ const flowPrincipal = addKeyword(['vMozo'])
         {
             capture:true
         },
-        async (ctx, {flowDynamic,endFlow,provider}) => {
-            
-            if(isOwner(ctx.from) && ctx.body === "7"){
-                await flowDynamic(['Gracias por utilizar este servicio','Escriba vMozo para volver a comenzar'])
-                return endFlow()
-            }
-            if(isOwner(ctx.from) && ctx.body === "6"){
-                await enviarQrs(ctx.from,provider);
-                return endFlow()
+        async (ctx,{fallBack}) => {
+
+            addProps(ctx.from,{pregunta: 1})
+
+            const valoresPermitidos = ["1", "2", "3", "4", "5", "6"];
+
+            if(!valoresPermitidos.includes(ctx.body)){
+                return fallBack("Ingrese una opción valida")
             }
         
         },
         [flujoCarta,flujoPedido,flujoAgregar,flujoMozo,flujoCuenta,flujoSalir]
     )
 
+
+let telCliente = ""
+
+const flowEnviarFoto = addKeyword(['enviar cuenta'])
+.addAnswer('Indique a que telefono va a enviar la foto de la cuenta')
+.addAnswer('Este fue enviado anteriormente por un mensaje',{capture:true}, async (ctx,{fallBack}) => {
+
+    const isValidPhoneNumber = /^\d{10}$/.test(ctx.body);
+
+    if (isValidPhoneNumber) {
+        telCliente = "549" + ctx.body
+    }
+    else{
+        return fallBack("Numero invalido, ingrese un numero de telefono sin 0 y sin 15")
+    }
+
+    
+
+})
+.addAnswer('Adjunte la foto de la cuenta',{capture:true}, async (ctx,{provider,fallBack}) => {
+
+    if(ctx.message.hasOwnProperty('imageMessage')){
+
+    const buffer = await downloadMediaMessage(ctx, 'buffer');
+
+    const filename = 'cuenta.jpg';
+
+    // Guardar la foto en el sistema de archivos local
+    fs.writeFileSync(filename, Buffer.from(buffer, 'base64'));
+
+    // Obtener la URL local del archivo
+    const localFilePath = `./${filename}`;
+
+    const telefono = ctx.from + '@s.whatsapp.net';
+
+    // Utilizar la URL local en la función sendMedia
+    await provider.sendMedia(telefono, localFilePath, 'Aqui tiene la cuenta, a la brevedad el mozo le acercara su comprobante fisico\nGracias por comer en Pizzeria Popular y usar vMozo.');
+
+    // Eliminar el archivo local después de enviarlo
+    fs.unlinkSync(localFilePath);
+
+    }
+    else{
+        return fallBack("Este campo admite solo fotos")
+    }
+
+})
+
 const main = async () => {
     const adapterDB = new JsonFileAdapter()
-    const adapterFlow = createFlow([flowPrincipal])
+    const adapterFlow = createFlow([flowPrincipal,flowEnviarFoto])
     const adapterProvider = createProvider(BaileysProvider)
 
     createBot({

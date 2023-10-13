@@ -1,15 +1,40 @@
 [
   {
-    "ref": "7807add3-f68e-4b72-97b6-0a733c62632a",
-    "keyword": "584b9aed4877ce9ccbd9e157bf757ae3",
+    "ref": "07073740-13d6-480b-9253-1cb232681d75",
+    "keyword": "0b667cbe5c43c45df9af7aab98c2bb4a",
     "answer": "( 2 ) vMozo",
     "options": {},
-    "from": "5493512275549",
+    "from": "5493515924253",
     "refSerialize": "288187c3548575497a4a4b8cf50504ef"
   },
   {
-    "ref": "ans_638035f2-8070-4892-9bad-ef278ab79943",
-    "keyword": "key_3cd76acc-07ae-4302-b9b0-6e52ddb6bf8f",
+    "ref": "ans_7734be61-8b57-40c2-b6d0-adb5b62bd204",
+    "keyword": "key_9297c85b-604d-4636-aeb6-356b356d1e11",
+    "answer": "¿Cuántas personas van a ordenar ?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "0606043f9e2cd193f53a955e6d9de1f0",
+    "from": "5493515924253"
+  },
+  {
+    "ref": "a787e069-f5d3-4513-ba67-7758f5951568",
+    "keyword": "0606043f9e2cd193f53a955e6d9de1f0",
+    "answer": "( 2 ) vMozo",
+    "options": {},
+    "from": "5493515924253",
+    "refSerialize": "288187c3548575497a4a4b8cf50504ef"
+  },
+  {
+    "ref": "ans_e0d74015-26d9-4df0-bc43-1f9715790b74",
+    "keyword": "key_859d5253-90db-4718-b26a-2caad3f6a437",
     "answer": "Hola bienvenido a Pizzeria Popular\nSoy vMozo su mozo virtual.",
     "options": {
       "media": null,
@@ -21,12 +46,12 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "394a25ee097ca33b009398790e8f7f34",
-    "from": "5493512275549"
+    "refSerialize": "7e1d4a97001977ba323195dc707ad611",
+    "from": "5493515924253"
   },
   {
-    "ref": "ans_319266d3-6fe3-4bc6-9ead-f1828f39cf6c",
-    "keyword": "ans_638035f2-8070-4892-9bad-ef278ab79943",
+    "ref": "ans_fde991c7-d1e5-4fb3-82ea-63857ce867ea",
+    "keyword": "ans_e0d74015-26d9-4df0-bc43-1f9715790b74",
     "answer": "Elija la opción deseada",
     "options": {
       "media": null,
@@ -36,7 +61,7 @@
       "delay": 0,
       "nested": [
         {
-          "ref": "key_a754956e-c54b-470f-ba6d-420843763e5d",
+          "ref": "key_957a114f-65d1-49ce-b00c-3667aeebec96",
           "keyword": "1",
           "options": {
             "sensitive": false,
@@ -45,8 +70,8 @@
           "refSerialize": "065e0005da6e5c278a53691e53b48955"
         },
         {
-          "ref": "ans_fb7f470c-76e7-4307-823d-296e144365e0",
-          "keyword": "key_a754956e-c54b-470f-ba6d-420843763e5d",
+          "ref": "ans_3f3a8fe0-14b2-4a2a-b771-65a4ad6d5141",
+          "keyword": "key_957a114f-65d1-49ce-b00c-3667aeebec96",
           "answer": "Aca te dejo la carta",
           "options": {
             "media": null,
@@ -58,11 +83,11 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "5e717069d1b6f706d1ce189da1ae170b"
+          "refSerialize": "a1ef8f9a50d2f66845d178a0dbe8f889"
         },
         {
-          "ref": "ans_ae12ae2d-a2f4-4473-b281-11f3a6565ac9",
-          "keyword": "ans_fb7f470c-76e7-4307-823d-296e144365e0",
+          "ref": "ans_fc552e44-277e-4668-88f7-90f27ab62dc6",
+          "keyword": "ans_3f3a8fe0-14b2-4a2a-b771-65a4ad6d5141",
           "answer": "Si desea realizar el pedido de su mesa envie \"pedir\" o para salir envie \"salir\"",
           "options": {
             "media": null,
@@ -72,7 +97,7 @@
             "delay": 0,
             "nested": [
               {
-                "ref": "key_a005ea2d-8f89-4bd5-8ac3-ef33af511d8a",
+                "ref": "key_2689c13b-c29d-4b6f-a644-810c6cc7a06d",
                 "keyword": [
                   "2",
                   "pedir"
@@ -84,8 +109,8 @@
                 "refSerialize": "b64e4feda41f5d78c023d65fbd2b4127"
               },
               {
-                "ref": "ans_6fa39d6d-e770-4e86-b239-c57fef9c5088",
-                "keyword": "key_a005ea2d-8f89-4bd5-8ac3-ef33af511d8a",
+                "ref": "ans_9e7b8628-8f27-4fe1-a4f7-73c8b22b67df",
+                "keyword": "key_2689c13b-c29d-4b6f-a644-810c6cc7a06d",
                 "answer": "¿Cuántas personas van a ordenar ?",
                 "options": {
                   "media": null,
@@ -97,336 +122,16 @@
                   "keyword": {},
                   "callback": true
                 },
-                "refSerialize": "a71d436d03737f9c4deb37ef5ce14370"
-              },
-              {
-                "ref": "ans_db020544-5d72-48d1-a854-d1fec8228a93",
-                "keyword": "ans_6fa39d6d-e770-4e86-b239-c57fef9c5088",
-                "answer": "Que va a comer el comensal N° 1 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "357c6a074834e6dc25a8b52eee9ccfc8"
-              },
-              {
-                "ref": "ans_a5a4936f-abf4-405b-9a32-3fbfa65c0d7d",
-                "keyword": "ans_db020544-5d72-48d1-a854-d1fec8228a93",
-                "answer": "Que va a tomar el comensal N° 1 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "735e56e7370c8b85882faf9d7ee5c146"
-              },
-              {
-                "ref": "ans_d7930fde-0561-419b-8e2c-ce31531b57be",
-                "keyword": "ans_a5a4936f-abf4-405b-9a32-3fbfa65c0d7d",
-                "answer": "Que va a comer el comensal N° 2 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "3f2373626a0e5f671f4481b8d6df1383"
-              },
-              {
-                "ref": "ans_dbbfb4c2-d43f-41ab-848b-92fcfe9b994c",
-                "keyword": "ans_d7930fde-0561-419b-8e2c-ce31531b57be",
-                "answer": "Que va a tomar el comensal N° 2 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "cbb3e9e41eb2e424bf1d98964dd2dc40"
-              },
-              {
-                "ref": "ans_55fdf60f-2b70-473a-b4b3-79fd343f8092",
-                "keyword": "ans_dbbfb4c2-d43f-41ab-848b-92fcfe9b994c",
-                "answer": "Que va a comer el comensal N° 3 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "8706a420d0db0c4aa0f048f6e1fcf8b0"
-              },
-              {
-                "ref": "ans_b6c70666-43d9-4375-bab8-b168211fe7d0",
-                "keyword": "ans_55fdf60f-2b70-473a-b4b3-79fd343f8092",
-                "answer": "Que va a tomar el comensal N° 3 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "99b73db0e8187294db3ff9d0e79abc64"
-              },
-              {
-                "ref": "ans_4c71b756-1019-42e3-9e5f-3005619eea1c",
-                "keyword": "ans_b6c70666-43d9-4375-bab8-b168211fe7d0",
-                "answer": "Que va a comer el comensal N° 4 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "e431ea27c679329db5dec4cbe8d3e907"
-              },
-              {
-                "ref": "ans_83a7f66f-b9ff-42b6-bf40-e3e46ce77ac0",
-                "keyword": "ans_4c71b756-1019-42e3-9e5f-3005619eea1c",
-                "answer": "Que va a tomar el comensal N° 4 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "439462c340fc9aee29933f8fdd816d42"
-              },
-              {
-                "ref": "ans_2df8840b-f8fc-412d-a1c9-2b2e7d834024",
-                "keyword": "ans_83a7f66f-b9ff-42b6-bf40-e3e46ce77ac0",
-                "answer": "Que va a comer el comensal N° 5 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "2f142a85c6ae19e232501c3b44b7f300"
-              },
-              {
-                "ref": "ans_91713477-4a5a-4d5a-856e-911b4f7b4500",
-                "keyword": "ans_2df8840b-f8fc-412d-a1c9-2b2e7d834024",
-                "answer": "Que va a tomar el comensal N° 5 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "16ff090c3b46f96507fe46e6e21a7a19"
-              },
-              {
-                "ref": "ans_cc06537f-89fb-4735-803c-24b96f77d967",
-                "keyword": "ans_91713477-4a5a-4d5a-856e-911b4f7b4500",
-                "answer": "Que va a comer el comensal N° 6 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "d5f961ab6ec1be31112099c2c9cfa867"
-              },
-              {
-                "ref": "ans_6611c4d2-7cbf-4168-a850-74c42c2e69ba",
-                "keyword": "ans_cc06537f-89fb-4735-803c-24b96f77d967",
-                "answer": "Que va a tomar el comensal N° 6 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "d07eba2f75354b3c21429ad06bafc434"
-              },
-              {
-                "ref": "ans_7bdfd598-c380-4b6b-9ee4-59cfc4757097",
-                "keyword": "ans_6611c4d2-7cbf-4168-a850-74c42c2e69ba",
-                "answer": "Que va a comer el comensal N° 7 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "a2dc5c549f46df06a7e756b10886ebad"
-              },
-              {
-                "ref": "ans_8eecae2a-fe62-4060-a333-7c6b8df5e8e0",
-                "keyword": "ans_7bdfd598-c380-4b6b-9ee4-59cfc4757097",
-                "answer": "Que va a tomar el comensal N° 7 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "bb0d3b8662723669cd048794c0742572"
-              },
-              {
-                "ref": "ans_58e13524-c4fe-4640-b3a5-8ad235587e27",
-                "keyword": "ans_8eecae2a-fe62-4060-a333-7c6b8df5e8e0",
-                "answer": "Que va a comer el comensal N° 8 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "b4cc2a966c3759d438270d0677cb28f1"
-              },
-              {
-                "ref": "ans_78fb29d6-e848-414c-be10-3c3b0f449b64",
-                "keyword": "ans_58e13524-c4fe-4640-b3a5-8ad235587e27",
-                "answer": "Que va a tomar el comensal N° 8 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "532cf5c00668d2daad77284995283f87"
-              },
-              {
-                "ref": "ans_76aea99e-45b2-49d9-9e48-8c2cf34f683f",
-                "keyword": "ans_78fb29d6-e848-414c-be10-3c3b0f449b64",
-                "answer": "Que va a comer el comensal N° 9 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "81294cfa8ca3be6ed0eb830c1af91c49"
-              },
-              {
-                "ref": "ans_9e5ad0e5-23c1-4907-b7d3-92145ed65be0",
-                "keyword": "ans_76aea99e-45b2-49d9-9e48-8c2cf34f683f",
-                "answer": "Que va a tomar el comensal N° 9 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "7a40809be3651a78e86f3f62e202a503"
-              },
-              {
-                "ref": "ans_275c6c9f-a6af-473b-917b-aed1a6919d81",
-                "keyword": "ans_9e5ad0e5-23c1-4907-b7d3-92145ed65be0",
-                "answer": "Que va a comer el comensal N° 10 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "24c294c946442ab6a2dc7d93e0c39374"
-              },
-              {
-                "ref": "ans_45c8c3e9-fbfb-4f8c-991a-bed2e50b8cb3",
-                "keyword": "ans_275c6c9f-a6af-473b-917b-aed1a6919d81",
-                "answer": "Que va a tomar el comensal N° 10 ?",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "6662c3aade611e09da2970cfac093ae0"
+                "refSerialize": "823e24136aacd4886bcd3dfe36a9aa14"
               }
             ],
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "333234ea2f1f880e4d7c0a178f8898c4"
+          "refSerialize": "b2f7a678170abbf7ea5b223b37e7a000"
         },
         {
-          "ref": "key_a005ea2d-8f89-4bd5-8ac3-ef33af511d8a",
+          "ref": "key_2689c13b-c29d-4b6f-a644-810c6cc7a06d",
           "keyword": [
             "2",
             "pedir"
@@ -438,8 +143,8 @@
           "refSerialize": "b64e4feda41f5d78c023d65fbd2b4127"
         },
         {
-          "ref": "ans_6fa39d6d-e770-4e86-b239-c57fef9c5088",
-          "keyword": "key_a005ea2d-8f89-4bd5-8ac3-ef33af511d8a",
+          "ref": "ans_9e7b8628-8f27-4fe1-a4f7-73c8b22b67df",
+          "keyword": "key_2689c13b-c29d-4b6f-a644-810c6cc7a06d",
           "answer": "¿Cuántas personas van a ordenar ?",
           "options": {
             "media": null,
@@ -451,330 +156,10 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "a71d436d03737f9c4deb37ef5ce14370"
+          "refSerialize": "823e24136aacd4886bcd3dfe36a9aa14"
         },
         {
-          "ref": "ans_db020544-5d72-48d1-a854-d1fec8228a93",
-          "keyword": "ans_6fa39d6d-e770-4e86-b239-c57fef9c5088",
-          "answer": "Que va a comer el comensal N° 1 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "357c6a074834e6dc25a8b52eee9ccfc8"
-        },
-        {
-          "ref": "ans_a5a4936f-abf4-405b-9a32-3fbfa65c0d7d",
-          "keyword": "ans_db020544-5d72-48d1-a854-d1fec8228a93",
-          "answer": "Que va a tomar el comensal N° 1 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "735e56e7370c8b85882faf9d7ee5c146"
-        },
-        {
-          "ref": "ans_d7930fde-0561-419b-8e2c-ce31531b57be",
-          "keyword": "ans_a5a4936f-abf4-405b-9a32-3fbfa65c0d7d",
-          "answer": "Que va a comer el comensal N° 2 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "3f2373626a0e5f671f4481b8d6df1383"
-        },
-        {
-          "ref": "ans_dbbfb4c2-d43f-41ab-848b-92fcfe9b994c",
-          "keyword": "ans_d7930fde-0561-419b-8e2c-ce31531b57be",
-          "answer": "Que va a tomar el comensal N° 2 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "cbb3e9e41eb2e424bf1d98964dd2dc40"
-        },
-        {
-          "ref": "ans_55fdf60f-2b70-473a-b4b3-79fd343f8092",
-          "keyword": "ans_dbbfb4c2-d43f-41ab-848b-92fcfe9b994c",
-          "answer": "Que va a comer el comensal N° 3 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "8706a420d0db0c4aa0f048f6e1fcf8b0"
-        },
-        {
-          "ref": "ans_b6c70666-43d9-4375-bab8-b168211fe7d0",
-          "keyword": "ans_55fdf60f-2b70-473a-b4b3-79fd343f8092",
-          "answer": "Que va a tomar el comensal N° 3 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "99b73db0e8187294db3ff9d0e79abc64"
-        },
-        {
-          "ref": "ans_4c71b756-1019-42e3-9e5f-3005619eea1c",
-          "keyword": "ans_b6c70666-43d9-4375-bab8-b168211fe7d0",
-          "answer": "Que va a comer el comensal N° 4 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "e431ea27c679329db5dec4cbe8d3e907"
-        },
-        {
-          "ref": "ans_83a7f66f-b9ff-42b6-bf40-e3e46ce77ac0",
-          "keyword": "ans_4c71b756-1019-42e3-9e5f-3005619eea1c",
-          "answer": "Que va a tomar el comensal N° 4 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "439462c340fc9aee29933f8fdd816d42"
-        },
-        {
-          "ref": "ans_2df8840b-f8fc-412d-a1c9-2b2e7d834024",
-          "keyword": "ans_83a7f66f-b9ff-42b6-bf40-e3e46ce77ac0",
-          "answer": "Que va a comer el comensal N° 5 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "2f142a85c6ae19e232501c3b44b7f300"
-        },
-        {
-          "ref": "ans_91713477-4a5a-4d5a-856e-911b4f7b4500",
-          "keyword": "ans_2df8840b-f8fc-412d-a1c9-2b2e7d834024",
-          "answer": "Que va a tomar el comensal N° 5 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "16ff090c3b46f96507fe46e6e21a7a19"
-        },
-        {
-          "ref": "ans_cc06537f-89fb-4735-803c-24b96f77d967",
-          "keyword": "ans_91713477-4a5a-4d5a-856e-911b4f7b4500",
-          "answer": "Que va a comer el comensal N° 6 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "d5f961ab6ec1be31112099c2c9cfa867"
-        },
-        {
-          "ref": "ans_6611c4d2-7cbf-4168-a850-74c42c2e69ba",
-          "keyword": "ans_cc06537f-89fb-4735-803c-24b96f77d967",
-          "answer": "Que va a tomar el comensal N° 6 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "d07eba2f75354b3c21429ad06bafc434"
-        },
-        {
-          "ref": "ans_7bdfd598-c380-4b6b-9ee4-59cfc4757097",
-          "keyword": "ans_6611c4d2-7cbf-4168-a850-74c42c2e69ba",
-          "answer": "Que va a comer el comensal N° 7 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "a2dc5c549f46df06a7e756b10886ebad"
-        },
-        {
-          "ref": "ans_8eecae2a-fe62-4060-a333-7c6b8df5e8e0",
-          "keyword": "ans_7bdfd598-c380-4b6b-9ee4-59cfc4757097",
-          "answer": "Que va a tomar el comensal N° 7 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "bb0d3b8662723669cd048794c0742572"
-        },
-        {
-          "ref": "ans_58e13524-c4fe-4640-b3a5-8ad235587e27",
-          "keyword": "ans_8eecae2a-fe62-4060-a333-7c6b8df5e8e0",
-          "answer": "Que va a comer el comensal N° 8 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "b4cc2a966c3759d438270d0677cb28f1"
-        },
-        {
-          "ref": "ans_78fb29d6-e848-414c-be10-3c3b0f449b64",
-          "keyword": "ans_58e13524-c4fe-4640-b3a5-8ad235587e27",
-          "answer": "Que va a tomar el comensal N° 8 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "532cf5c00668d2daad77284995283f87"
-        },
-        {
-          "ref": "ans_76aea99e-45b2-49d9-9e48-8c2cf34f683f",
-          "keyword": "ans_78fb29d6-e848-414c-be10-3c3b0f449b64",
-          "answer": "Que va a comer el comensal N° 9 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "81294cfa8ca3be6ed0eb830c1af91c49"
-        },
-        {
-          "ref": "ans_9e5ad0e5-23c1-4907-b7d3-92145ed65be0",
-          "keyword": "ans_76aea99e-45b2-49d9-9e48-8c2cf34f683f",
-          "answer": "Que va a tomar el comensal N° 9 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "7a40809be3651a78e86f3f62e202a503"
-        },
-        {
-          "ref": "ans_275c6c9f-a6af-473b-917b-aed1a6919d81",
-          "keyword": "ans_9e5ad0e5-23c1-4907-b7d3-92145ed65be0",
-          "answer": "Que va a comer el comensal N° 10 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "24c294c946442ab6a2dc7d93e0c39374"
-        },
-        {
-          "ref": "ans_45c8c3e9-fbfb-4f8c-991a-bed2e50b8cb3",
-          "keyword": "ans_275c6c9f-a6af-473b-917b-aed1a6919d81",
-          "answer": "Que va a tomar el comensal N° 10 ?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "6662c3aade611e09da2970cfac093ae0"
-        },
-        {
-          "ref": "key_e3196ec6-1249-47cf-a039-2610419e74ae",
+          "ref": "key_42c08ec2-0cf6-4217-8e71-bde7a859c222",
           "keyword": "3",
           "options": {
             "sensitive": false,
@@ -783,8 +168,8 @@
           "refSerialize": "741cd7b8654e06cc47783fa3ba233c53"
         },
         {
-          "ref": "ans_f9906320-a77d-489a-9ea5-6e74f55b8081",
-          "keyword": "key_e3196ec6-1249-47cf-a039-2610419e74ae",
+          "ref": "ans_17692b8d-1c1b-4d3d-a432-7406e3a89f9a",
+          "keyword": "key_42c08ec2-0cf6-4217-8e71-bde7a859c222",
           "answer": "En un solo mensaje, indique que desea agregar a tu mesa",
           "options": {
             "media": null,
@@ -796,10 +181,10 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "35ab6c29f3d53474cea010a0bc656877"
+          "refSerialize": "c65c8eb40f7f4fa3ba6b3c10cfc17b95"
         },
         {
-          "ref": "key_719cbe7c-d614-424f-b696-ac774593ebc7",
+          "ref": "key_382258b9-0a40-464e-93f7-74e17a3b37a5",
           "keyword": "4",
           "options": {
             "sensitive": false,
@@ -808,8 +193,8 @@
           "refSerialize": "fc09f52170be47fcb14a1cee9c5d3c52"
         },
         {
-          "ref": "ans_4f7ff7c7-f933-4500-8c1c-fb3e207d807e",
-          "keyword": "key_719cbe7c-d614-424f-b696-ac774593ebc7",
+          "ref": "ans_5ba6f743-0e79-467f-912c-5155e509f848",
+          "keyword": "key_382258b9-0a40-464e-93f7-74e17a3b37a5",
           "answer": "El mozo ya fue notificado, a la brevedad se acercara a la mesa",
           "options": {
             "media": null,
@@ -821,10 +206,10 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "9ebc4637c89d3c8d47e0d9c933f793ea"
+          "refSerialize": "fce6fbb8081f3875ad21913a61bc2411"
         },
         {
-          "ref": "key_a2cec3b1-4e15-48e0-9d52-c189ac3bda3b",
+          "ref": "key_ede1101f-20db-46a8-8e86-00ae50338ffa",
           "keyword": "5",
           "options": {
             "sensitive": false,
@@ -833,9 +218,9 @@
           "refSerialize": "660d6f380cd3d2aa67431f161ba4eccf"
         },
         {
-          "ref": "ans_f2d89fb7-14bc-48b2-b2a9-fde268753c23",
-          "keyword": "key_a2cec3b1-4e15-48e0-9d52-c189ac3bda3b",
-          "answer": "El mozo ya fue notificado, a la brevedad le llevara la cuenta a la mesa",
+          "ref": "ans_015af67d-e35f-418f-ba5a-1571e78edcff",
+          "keyword": "key_ede1101f-20db-46a8-8e86-00ae50338ffa",
+          "answer": "A la brevedad el mozo llevará la cuenta a la mesa",
           "options": {
             "media": null,
             "buttons": [],
@@ -846,10 +231,26 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "cc549baf9a80275aafafa01b252b8512"
+          "refSerialize": "711eaaa9ecda1cab68e37f7951b27412"
         },
         {
-          "ref": "key_1b803c49-b855-4bf0-af95-c7ee3d14bdf6",
+          "ref": "ans_bcad340c-09de-444b-82df-5b00f8ee0438",
+          "keyword": "ans_015af67d-e35f-418f-ba5a-1571e78edcff",
+          "answer": "Si además desea recibir una foto de la misma envie *foto*\nDe lo contrario envie *salir*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "f3418a80f8307e45e7df31afa3ce928e"
+        },
+        {
+          "ref": "key_c1564961-987c-467c-98d6-ee1100986441",
           "keyword": "6",
           "options": {
             "sensitive": false,
@@ -858,8 +259,8 @@
           "refSerialize": "ae093091123de34d8570657f16bd7343"
         },
         {
-          "ref": "ans_381b3ba5-e863-4d96-81d6-1edbdea330c5",
-          "keyword": "key_1b803c49-b855-4bf0-af95-c7ee3d14bdf6",
+          "ref": "ans_a85a19bf-2480-43cb-86b5-d5b263560718",
+          "keyword": "key_c1564961-987c-467c-98d6-ee1100986441",
           "answer": "Gracias por comer en Pizzeria Popular y usar vMozo.\nEspero que disfrutaras la experiencia.\nTu opinion nos importa muchisimo para mejorar el servicio y seguir creciendo\nSi deseas dejarnos un comentario y contestar unas breves preguntas escribe \"SI\" para continuar.",
           "options": {
             "media": null,
@@ -871,11 +272,11 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "8b7af60a6119e7c70d485978157fa898"
+          "refSerialize": "28be65ccba5ae9ddb054cf4eae8e8d47"
         },
         {
-          "ref": "ans_42b87f69-a594-4ae5-82be-6cf35231e6e6",
-          "keyword": "ans_381b3ba5-e863-4d96-81d6-1edbdea330c5",
+          "ref": "ans_607b768b-e096-4c23-bc6b-4c1baac5a701",
+          "keyword": "ans_a85a19bf-2480-43cb-86b5-d5b263560718",
           "answer": "¿Como calificarías de 1 a 10 tu experiencia en Pizzeria Popular ?",
           "options": {
             "media": null,
@@ -887,11 +288,11 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "221f55edaa6e6ba89526ec13abba1908"
+          "refSerialize": "be6e40ebf04d7ae687606f46512aa256"
         },
         {
-          "ref": "ans_5e84187b-f521-4b38-b9f3-298429873848",
-          "keyword": "ans_42b87f69-a594-4ae5-82be-6cf35231e6e6",
+          "ref": "ans_f9373d6b-a526-4ffb-a82a-2736c0f454fb",
+          "keyword": "ans_607b768b-e096-4c23-bc6b-4c1baac5a701",
           "answer": "¿Como calificarías de 1 a 10 la atención de vMozo ?",
           "options": {
             "media": null,
@@ -903,11 +304,11 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "f598fdf9b015ff9bb920b84a1e654181"
+          "refSerialize": "9b8c04b51eca0527ef9c7a6da0ea58ab"
         },
         {
-          "ref": "ans_6810c56a-1267-406f-a79a-56ec6e9da7af",
-          "keyword": "ans_5e84187b-f521-4b38-b9f3-298429873848",
+          "ref": "ans_6efa0bde-aabc-47cb-95eb-fab2ea5e9b35",
+          "keyword": "ans_f9373d6b-a526-4ffb-a82a-2736c0f454fb",
           "answer": "Dejanos un comentario sobre que cambiarias para mejorar tu experiencia",
           "options": {
             "media": null,
@@ -919,11 +320,11 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "1d57520bc950b23ba3eda02dd2d7f3f3"
+          "refSerialize": "059bfe96aca9423e43668999c2ef67b1"
         },
         {
-          "ref": "ans_f1c6ce8f-7c4c-4cd5-bdaa-7f5805160e78",
-          "keyword": "ans_6810c56a-1267-406f-a79a-56ec6e9da7af",
+          "ref": "ans_574d92a4-5c66-4f9c-b52a-12d4540505be",
+          "keyword": "ans_6efa0bde-aabc-47cb-95eb-fab2ea5e9b35",
           "answer": "Si te gustaria recibir informacion de Pizzeria Popular como promociones, descuentos o eventos especiales, dejanos un correo. \nDe lo contrario envia \"NO\"",
           "options": {
             "media": null,
@@ -935,11 +336,11 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "4ccfe5aa86307ab64885a4930cf95120"
+          "refSerialize": "d3d5a4ee080998bbf21ee23fcb69c363"
         },
         {
-          "ref": "ans_191b6f0c-9000-4fe6-9392-fc2bf90f7f8c",
-          "keyword": "ans_f1c6ce8f-7c4c-4cd5-bdaa-7f5805160e78",
+          "ref": "ans_dfc80480-1927-440d-97c5-51125c750a32",
+          "keyword": "ans_574d92a4-5c66-4f9c-b52a-12d4540505be",
           "answer": "Muchas gracias por tu devolucion\nEsperamos poder atenderte nuevamente pronto\nEscriba vMozo para volver a comenzar",
           "options": {
             "media": null,
@@ -951,37 +352,1214 @@
             "keyword": {},
             "callback": false
           },
-          "refSerialize": "83c9de72161abdf908be20311c8d12f4"
+          "refSerialize": "b07780f0eaf2871979f6142f3c936c91"
         }
       ],
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "b3df8181d0186a75c19cea148d173787",
-    "from": "5493512275549"
+    "refSerialize": "f73bc3acbcfe5760a0845f2b7f745165",
+    "from": "5493515924253"
   },
   {
-    "ref": "407b1ecd-4ca4-4659-9db3-4b1357aa323c",
+    "ref": "3d008e46-fd8e-4d42-a18e-91d9037f1d99",
     "answer": "1. Ver el Menú\n2. Ordenar\n3. Agregar algo a mi pedido\n4. Llamar al mozo\n5. Pedir la cuenta\n6. Salir",
     "options": {
       "media": null,
       "buttons": [],
       "capture": false
     },
-    "from": "5493512275549",
+    "from": "5493515924253",
     "refSerialize": "b24d89de70e049ed65d07b8901ef4325"
   },
   {
-    "ref": "a41bee8b-d62d-4409-9fbb-e5fe5d82b2f8",
-    "keyword": "b3df8181d0186a75c19cea148d173787",
+    "ref": "5357faa3-fed2-44e0-8884-2f87bfd967ab",
+    "keyword": "f73bc3acbcfe5760a0845f2b7f745165",
+    "answer": "3",
+    "options": {},
+    "from": "5493515924253",
+    "refSerialize": "7af65864494b12f0f7ef00589f4d3979"
+  },
+  {
+    "ref": "ans_17692b8d-1c1b-4d3d-a432-7406e3a89f9a",
+    "keyword": "key_42c08ec2-0cf6-4217-8e71-bde7a859c222",
+    "answer": "En un solo mensaje, indique que desea agregar a tu mesa",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c65c8eb40f7f4fa3ba6b3c10cfc17b95",
+    "from": "5493515924253"
+  },
+  {
+    "ref": "bbf21894-a35f-48b5-92e2-36cf9dfd74a8",
+    "keyword": "c65c8eb40f7f4fa3ba6b3c10cfc17b95",
+    "answer": "_event_media__65f61179-a091-4e64-8a1b-a4b36fe58e32",
+    "options": {},
+    "from": "5493515924253",
+    "refSerialize": "1a888ca23c6f207ce82169bbf91aefc7"
+  },
+  {
+    "ref": "ans_17692b8d-1c1b-4d3d-a432-7406e3a89f9a",
+    "keyword": "key_42c08ec2-0cf6-4217-8e71-bde7a859c222",
+    "answer": "Este campo admite solo texto",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c65c8eb40f7f4fa3ba6b3c10cfc17b95",
+    "from": "5493515924253"
+  },
+  {
+    "ref": "8d18fcbf-a99f-4835-bbf0-b2496c399386",
+    "keyword": "c65c8eb40f7f4fa3ba6b3c10cfc17b95",
+    "answer": "asd",
+    "options": {},
+    "from": "5493515924253",
+    "refSerialize": "6988c0490446f551a44ac1d6ae1ba6a3"
+  },
+  {
+    "ref": "15cebd55-9f60-4479-a71b-577f47a4f4ac",
+    "keyword": "6988c0490446f551a44ac1d6ae1ba6a3",
+    "answer": "vMozo",
+    "options": {},
+    "from": "5493515924253",
+    "refSerialize": "761d53032b868ce56bbe966406b965a3"
+  },
+  {
+    "ref": "ans_e0d74015-26d9-4df0-bc43-1f9715790b74",
+    "keyword": "key_859d5253-90db-4718-b26a-2caad3f6a437",
+    "answer": "Hola bienvenido a Pizzeria Popular\nSoy vMozo su mozo virtual.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "7e1d4a97001977ba323195dc707ad611",
+    "from": "5493515924253"
+  },
+  {
+    "ref": "ans_fde991c7-d1e5-4fb3-82ea-63857ce867ea",
+    "keyword": "ans_e0d74015-26d9-4df0-bc43-1f9715790b74",
+    "answer": "Elija la opción deseada",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [
+        {
+          "ref": "key_957a114f-65d1-49ce-b00c-3667aeebec96",
+          "keyword": "1",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "065e0005da6e5c278a53691e53b48955"
+        },
+        {
+          "ref": "ans_3f3a8fe0-14b2-4a2a-b771-65a4ad6d5141",
+          "keyword": "key_957a114f-65d1-49ce-b00c-3667aeebec96",
+          "answer": "Aca te dejo la carta",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "a1ef8f9a50d2f66845d178a0dbe8f889"
+        },
+        {
+          "ref": "ans_fc552e44-277e-4668-88f7-90f27ab62dc6",
+          "keyword": "ans_3f3a8fe0-14b2-4a2a-b771-65a4ad6d5141",
+          "answer": "Si desea realizar el pedido de su mesa envie \"pedir\" o para salir envie \"salir\"",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [
+              {
+                "ref": "key_2689c13b-c29d-4b6f-a644-810c6cc7a06d",
+                "keyword": [
+                  "2",
+                  "pedir"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "b64e4feda41f5d78c023d65fbd2b4127"
+              },
+              {
+                "ref": "ans_9e7b8628-8f27-4fe1-a4f7-73c8b22b67df",
+                "keyword": "key_2689c13b-c29d-4b6f-a644-810c6cc7a06d",
+                "answer": "¿Cuántas personas van a ordenar ?",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": true,
+                  "child": null,
+                  "delay": 0,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "823e24136aacd4886bcd3dfe36a9aa14"
+              }
+            ],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "b2f7a678170abbf7ea5b223b37e7a000"
+        },
+        {
+          "ref": "key_2689c13b-c29d-4b6f-a644-810c6cc7a06d",
+          "keyword": [
+            "2",
+            "pedir"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "b64e4feda41f5d78c023d65fbd2b4127"
+        },
+        {
+          "ref": "ans_9e7b8628-8f27-4fe1-a4f7-73c8b22b67df",
+          "keyword": "key_2689c13b-c29d-4b6f-a644-810c6cc7a06d",
+          "answer": "¿Cuántas personas van a ordenar ?",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "823e24136aacd4886bcd3dfe36a9aa14"
+        },
+        {
+          "ref": "key_42c08ec2-0cf6-4217-8e71-bde7a859c222",
+          "keyword": "3",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "741cd7b8654e06cc47783fa3ba233c53"
+        },
+        {
+          "ref": "ans_17692b8d-1c1b-4d3d-a432-7406e3a89f9a",
+          "keyword": "key_42c08ec2-0cf6-4217-8e71-bde7a859c222",
+          "answer": "En un solo mensaje, indique que desea agregar a tu mesa",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "c65c8eb40f7f4fa3ba6b3c10cfc17b95"
+        },
+        {
+          "ref": "key_382258b9-0a40-464e-93f7-74e17a3b37a5",
+          "keyword": "4",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "fc09f52170be47fcb14a1cee9c5d3c52"
+        },
+        {
+          "ref": "ans_5ba6f743-0e79-467f-912c-5155e509f848",
+          "keyword": "key_382258b9-0a40-464e-93f7-74e17a3b37a5",
+          "answer": "El mozo ya fue notificado, a la brevedad se acercara a la mesa",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "fce6fbb8081f3875ad21913a61bc2411"
+        },
+        {
+          "ref": "key_ede1101f-20db-46a8-8e86-00ae50338ffa",
+          "keyword": "5",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "660d6f380cd3d2aa67431f161ba4eccf"
+        },
+        {
+          "ref": "ans_015af67d-e35f-418f-ba5a-1571e78edcff",
+          "keyword": "key_ede1101f-20db-46a8-8e86-00ae50338ffa",
+          "answer": "A la brevedad el mozo llevará la cuenta a la mesa",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "711eaaa9ecda1cab68e37f7951b27412"
+        },
+        {
+          "ref": "ans_bcad340c-09de-444b-82df-5b00f8ee0438",
+          "keyword": "ans_015af67d-e35f-418f-ba5a-1571e78edcff",
+          "answer": "Si además desea recibir una foto de la misma envie *foto*\nDe lo contrario envie *salir*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "f3418a80f8307e45e7df31afa3ce928e"
+        },
+        {
+          "ref": "key_c1564961-987c-467c-98d6-ee1100986441",
+          "keyword": "6",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "ae093091123de34d8570657f16bd7343"
+        },
+        {
+          "ref": "ans_a85a19bf-2480-43cb-86b5-d5b263560718",
+          "keyword": "key_c1564961-987c-467c-98d6-ee1100986441",
+          "answer": "Gracias por comer en Pizzeria Popular y usar vMozo.\nEspero que disfrutaras la experiencia.\nTu opinion nos importa muchisimo para mejorar el servicio y seguir creciendo\nSi deseas dejarnos un comentario y contestar unas breves preguntas escribe \"SI\" para continuar.",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "28be65ccba5ae9ddb054cf4eae8e8d47"
+        },
+        {
+          "ref": "ans_607b768b-e096-4c23-bc6b-4c1baac5a701",
+          "keyword": "ans_a85a19bf-2480-43cb-86b5-d5b263560718",
+          "answer": "¿Como calificarías de 1 a 10 tu experiencia en Pizzeria Popular ?",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "be6e40ebf04d7ae687606f46512aa256"
+        },
+        {
+          "ref": "ans_f9373d6b-a526-4ffb-a82a-2736c0f454fb",
+          "keyword": "ans_607b768b-e096-4c23-bc6b-4c1baac5a701",
+          "answer": "¿Como calificarías de 1 a 10 la atención de vMozo ?",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "9b8c04b51eca0527ef9c7a6da0ea58ab"
+        },
+        {
+          "ref": "ans_6efa0bde-aabc-47cb-95eb-fab2ea5e9b35",
+          "keyword": "ans_f9373d6b-a526-4ffb-a82a-2736c0f454fb",
+          "answer": "Dejanos un comentario sobre que cambiarias para mejorar tu experiencia",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "059bfe96aca9423e43668999c2ef67b1"
+        },
+        {
+          "ref": "ans_574d92a4-5c66-4f9c-b52a-12d4540505be",
+          "keyword": "ans_6efa0bde-aabc-47cb-95eb-fab2ea5e9b35",
+          "answer": "Si te gustaria recibir informacion de Pizzeria Popular como promociones, descuentos o eventos especiales, dejanos un correo. \nDe lo contrario envia \"NO\"",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "d3d5a4ee080998bbf21ee23fcb69c363"
+        },
+        {
+          "ref": "ans_dfc80480-1927-440d-97c5-51125c750a32",
+          "keyword": "ans_574d92a4-5c66-4f9c-b52a-12d4540505be",
+          "answer": "Muchas gracias por tu devolucion\nEsperamos poder atenderte nuevamente pronto\nEscriba vMozo para volver a comenzar",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "b07780f0eaf2871979f6142f3c936c91"
+        }
+      ],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "f73bc3acbcfe5760a0845f2b7f745165",
+    "from": "5493515924253"
+  },
+  {
+    "ref": "6fa51d35-9a07-4e11-a5d0-406fb5edfd83",
+    "answer": "1. Ver el Menú\n2. Ordenar\n3. Agregar algo a mi pedido\n4. Llamar al mozo\n5. Pedir la cuenta\n6. Salir",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false
+    },
+    "from": "5493515924253",
+    "refSerialize": "b24d89de70e049ed65d07b8901ef4325"
+  },
+  {
+    "ref": "73ee9f3d-30c5-436c-8737-394802ea192f",
+    "keyword": "f73bc3acbcfe5760a0845f2b7f745165",
+    "answer": "4",
+    "options": {},
+    "from": "5493515924253",
+    "refSerialize": "e8139b7fa2fbc1b48f247924f8ad1961"
+  },
+  {
+    "ref": "ans_5ba6f743-0e79-467f-912c-5155e509f848",
+    "keyword": "key_382258b9-0a40-464e-93f7-74e17a3b37a5",
+    "answer": "El mozo ya fue notificado, a la brevedad se acercara a la mesa",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "fce6fbb8081f3875ad21913a61bc2411",
+    "from": "5493515924253"
+  },
+  {
+    "ref": "cde1d939-ccd4-4f0b-a827-a2959ef69a18",
+    "keyword": "fce6fbb8081f3875ad21913a61bc2411",
+    "answer": "vMozo",
+    "options": {},
+    "from": "5493515924253",
+    "refSerialize": "761d53032b868ce56bbe966406b965a3"
+  },
+  {
+    "ref": "ans_e0d74015-26d9-4df0-bc43-1f9715790b74",
+    "keyword": "key_859d5253-90db-4718-b26a-2caad3f6a437",
+    "answer": "Hola bienvenido a Pizzeria Popular\nSoy vMozo su mozo virtual.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "7e1d4a97001977ba323195dc707ad611",
+    "from": "5493515924253"
+  },
+  {
+    "ref": "ans_fde991c7-d1e5-4fb3-82ea-63857ce867ea",
+    "keyword": "ans_e0d74015-26d9-4df0-bc43-1f9715790b74",
+    "answer": "Elija la opción deseada",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [
+        {
+          "ref": "key_957a114f-65d1-49ce-b00c-3667aeebec96",
+          "keyword": "1",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "065e0005da6e5c278a53691e53b48955"
+        },
+        {
+          "ref": "ans_3f3a8fe0-14b2-4a2a-b771-65a4ad6d5141",
+          "keyword": "key_957a114f-65d1-49ce-b00c-3667aeebec96",
+          "answer": "Aca te dejo la carta",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "a1ef8f9a50d2f66845d178a0dbe8f889"
+        },
+        {
+          "ref": "ans_fc552e44-277e-4668-88f7-90f27ab62dc6",
+          "keyword": "ans_3f3a8fe0-14b2-4a2a-b771-65a4ad6d5141",
+          "answer": "Si desea realizar el pedido de su mesa envie \"pedir\" o para salir envie \"salir\"",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [
+              {
+                "ref": "key_2689c13b-c29d-4b6f-a644-810c6cc7a06d",
+                "keyword": [
+                  "2",
+                  "pedir"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "b64e4feda41f5d78c023d65fbd2b4127"
+              },
+              {
+                "ref": "ans_9e7b8628-8f27-4fe1-a4f7-73c8b22b67df",
+                "keyword": "key_2689c13b-c29d-4b6f-a644-810c6cc7a06d",
+                "answer": "¿Cuántas personas van a ordenar ?",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": true,
+                  "child": null,
+                  "delay": 0,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "823e24136aacd4886bcd3dfe36a9aa14"
+              }
+            ],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "b2f7a678170abbf7ea5b223b37e7a000"
+        },
+        {
+          "ref": "key_2689c13b-c29d-4b6f-a644-810c6cc7a06d",
+          "keyword": [
+            "2",
+            "pedir"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "b64e4feda41f5d78c023d65fbd2b4127"
+        },
+        {
+          "ref": "ans_9e7b8628-8f27-4fe1-a4f7-73c8b22b67df",
+          "keyword": "key_2689c13b-c29d-4b6f-a644-810c6cc7a06d",
+          "answer": "¿Cuántas personas van a ordenar ?",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "823e24136aacd4886bcd3dfe36a9aa14"
+        },
+        {
+          "ref": "key_42c08ec2-0cf6-4217-8e71-bde7a859c222",
+          "keyword": "3",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "741cd7b8654e06cc47783fa3ba233c53"
+        },
+        {
+          "ref": "ans_17692b8d-1c1b-4d3d-a432-7406e3a89f9a",
+          "keyword": "key_42c08ec2-0cf6-4217-8e71-bde7a859c222",
+          "answer": "En un solo mensaje, indique que desea agregar a tu mesa",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "c65c8eb40f7f4fa3ba6b3c10cfc17b95"
+        },
+        {
+          "ref": "key_382258b9-0a40-464e-93f7-74e17a3b37a5",
+          "keyword": "4",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "fc09f52170be47fcb14a1cee9c5d3c52"
+        },
+        {
+          "ref": "ans_5ba6f743-0e79-467f-912c-5155e509f848",
+          "keyword": "key_382258b9-0a40-464e-93f7-74e17a3b37a5",
+          "answer": "El mozo ya fue notificado, a la brevedad se acercara a la mesa",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "fce6fbb8081f3875ad21913a61bc2411"
+        },
+        {
+          "ref": "key_ede1101f-20db-46a8-8e86-00ae50338ffa",
+          "keyword": "5",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "660d6f380cd3d2aa67431f161ba4eccf"
+        },
+        {
+          "ref": "ans_015af67d-e35f-418f-ba5a-1571e78edcff",
+          "keyword": "key_ede1101f-20db-46a8-8e86-00ae50338ffa",
+          "answer": "A la brevedad el mozo llevará la cuenta a la mesa",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "711eaaa9ecda1cab68e37f7951b27412"
+        },
+        {
+          "ref": "ans_bcad340c-09de-444b-82df-5b00f8ee0438",
+          "keyword": "ans_015af67d-e35f-418f-ba5a-1571e78edcff",
+          "answer": "Si además desea recibir una foto de la misma envie *foto*\nDe lo contrario envie *salir*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "f3418a80f8307e45e7df31afa3ce928e"
+        },
+        {
+          "ref": "key_c1564961-987c-467c-98d6-ee1100986441",
+          "keyword": "6",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "ae093091123de34d8570657f16bd7343"
+        },
+        {
+          "ref": "ans_a85a19bf-2480-43cb-86b5-d5b263560718",
+          "keyword": "key_c1564961-987c-467c-98d6-ee1100986441",
+          "answer": "Gracias por comer en Pizzeria Popular y usar vMozo.\nEspero que disfrutaras la experiencia.\nTu opinion nos importa muchisimo para mejorar el servicio y seguir creciendo\nSi deseas dejarnos un comentario y contestar unas breves preguntas escribe \"SI\" para continuar.",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "28be65ccba5ae9ddb054cf4eae8e8d47"
+        },
+        {
+          "ref": "ans_607b768b-e096-4c23-bc6b-4c1baac5a701",
+          "keyword": "ans_a85a19bf-2480-43cb-86b5-d5b263560718",
+          "answer": "¿Como calificarías de 1 a 10 tu experiencia en Pizzeria Popular ?",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "be6e40ebf04d7ae687606f46512aa256"
+        },
+        {
+          "ref": "ans_f9373d6b-a526-4ffb-a82a-2736c0f454fb",
+          "keyword": "ans_607b768b-e096-4c23-bc6b-4c1baac5a701",
+          "answer": "¿Como calificarías de 1 a 10 la atención de vMozo ?",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "9b8c04b51eca0527ef9c7a6da0ea58ab"
+        },
+        {
+          "ref": "ans_6efa0bde-aabc-47cb-95eb-fab2ea5e9b35",
+          "keyword": "ans_f9373d6b-a526-4ffb-a82a-2736c0f454fb",
+          "answer": "Dejanos un comentario sobre que cambiarias para mejorar tu experiencia",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "059bfe96aca9423e43668999c2ef67b1"
+        },
+        {
+          "ref": "ans_574d92a4-5c66-4f9c-b52a-12d4540505be",
+          "keyword": "ans_6efa0bde-aabc-47cb-95eb-fab2ea5e9b35",
+          "answer": "Si te gustaria recibir informacion de Pizzeria Popular como promociones, descuentos o eventos especiales, dejanos un correo. \nDe lo contrario envia \"NO\"",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "d3d5a4ee080998bbf21ee23fcb69c363"
+        },
+        {
+          "ref": "ans_dfc80480-1927-440d-97c5-51125c750a32",
+          "keyword": "ans_574d92a4-5c66-4f9c-b52a-12d4540505be",
+          "answer": "Muchas gracias por tu devolucion\nEsperamos poder atenderte nuevamente pronto\nEscriba vMozo para volver a comenzar",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "b07780f0eaf2871979f6142f3c936c91"
+        }
+      ],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "f73bc3acbcfe5760a0845f2b7f745165",
+    "from": "5493515924253"
+  },
+  {
+    "ref": "16047b55-0b08-4ef3-9274-5d13d3e82412",
+    "answer": "1. Ver el Menú\n2. Ordenar\n3. Agregar algo a mi pedido\n4. Llamar al mozo\n5. Pedir la cuenta\n6. Salir",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false
+    },
+    "from": "5493515924253",
+    "refSerialize": "b24d89de70e049ed65d07b8901ef4325"
+  },
+  {
+    "ref": "f90db991-abd1-48ae-97f9-c29111778723",
+    "keyword": "f73bc3acbcfe5760a0845f2b7f745165",
+    "answer": "5",
+    "options": {},
+    "from": "5493515924253",
+    "refSerialize": "d2b414a4bc0b3490276097c7513b4c8c"
+  },
+  {
+    "ref": "ans_015af67d-e35f-418f-ba5a-1571e78edcff",
+    "keyword": "key_ede1101f-20db-46a8-8e86-00ae50338ffa",
+    "answer": "A la brevedad el mozo llevará la cuenta a la mesa",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "711eaaa9ecda1cab68e37f7951b27412",
+    "from": "5493515924253"
+  },
+  {
+    "ref": "ans_bcad340c-09de-444b-82df-5b00f8ee0438",
+    "keyword": "ans_015af67d-e35f-418f-ba5a-1571e78edcff",
+    "answer": "Si además desea recibir una foto de la misma envie *foto*\nDe lo contrario envie *salir*",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "f3418a80f8307e45e7df31afa3ce928e",
+    "from": "5493515924253"
+  },
+  {
+    "ref": "2719082a-4354-4aa3-a695-dc2b0fb05ecb",
+    "keyword": "f3418a80f8307e45e7df31afa3ce928e",
+    "answer": "asd",
+    "options": {},
+    "from": "5493515924253",
+    "refSerialize": "6988c0490446f551a44ac1d6ae1ba6a3"
+  },
+  {
+    "ref": "4d3f4e9a-06d7-4a0b-83f4-ec863bbeec4b",
+    "keyword": "6988c0490446f551a44ac1d6ae1ba6a3",
+    "answer": "vMozo",
+    "options": {},
+    "from": "5493515924253",
+    "refSerialize": "761d53032b868ce56bbe966406b965a3"
+  },
+  {
+    "ref": "ans_e0d74015-26d9-4df0-bc43-1f9715790b74",
+    "keyword": "key_859d5253-90db-4718-b26a-2caad3f6a437",
+    "answer": "Hola bienvenido a Pizzeria Popular\nSoy vMozo su mozo virtual.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "7e1d4a97001977ba323195dc707ad611",
+    "from": "5493515924253"
+  },
+  {
+    "ref": "ans_fde991c7-d1e5-4fb3-82ea-63857ce867ea",
+    "keyword": "ans_e0d74015-26d9-4df0-bc43-1f9715790b74",
+    "answer": "Elija la opción deseada",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [
+        {
+          "ref": "key_957a114f-65d1-49ce-b00c-3667aeebec96",
+          "keyword": "1",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "065e0005da6e5c278a53691e53b48955"
+        },
+        {
+          "ref": "ans_3f3a8fe0-14b2-4a2a-b771-65a4ad6d5141",
+          "keyword": "key_957a114f-65d1-49ce-b00c-3667aeebec96",
+          "answer": "Aca te dejo la carta",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "a1ef8f9a50d2f66845d178a0dbe8f889"
+        },
+        {
+          "ref": "ans_fc552e44-277e-4668-88f7-90f27ab62dc6",
+          "keyword": "ans_3f3a8fe0-14b2-4a2a-b771-65a4ad6d5141",
+          "answer": "Si desea realizar el pedido de su mesa envie \"pedir\" o para salir envie \"salir\"",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [
+              {
+                "ref": "key_2689c13b-c29d-4b6f-a644-810c6cc7a06d",
+                "keyword": [
+                  "2",
+                  "pedir"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "b64e4feda41f5d78c023d65fbd2b4127"
+              },
+              {
+                "ref": "ans_9e7b8628-8f27-4fe1-a4f7-73c8b22b67df",
+                "keyword": "key_2689c13b-c29d-4b6f-a644-810c6cc7a06d",
+                "answer": "¿Cuántas personas van a ordenar ?",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": true,
+                  "child": null,
+                  "delay": 0,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "823e24136aacd4886bcd3dfe36a9aa14"
+              }
+            ],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "b2f7a678170abbf7ea5b223b37e7a000"
+        },
+        {
+          "ref": "key_2689c13b-c29d-4b6f-a644-810c6cc7a06d",
+          "keyword": [
+            "2",
+            "pedir"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "b64e4feda41f5d78c023d65fbd2b4127"
+        },
+        {
+          "ref": "ans_9e7b8628-8f27-4fe1-a4f7-73c8b22b67df",
+          "keyword": "key_2689c13b-c29d-4b6f-a644-810c6cc7a06d",
+          "answer": "¿Cuántas personas van a ordenar ?",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "823e24136aacd4886bcd3dfe36a9aa14"
+        },
+        {
+          "ref": "key_42c08ec2-0cf6-4217-8e71-bde7a859c222",
+          "keyword": "3",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "741cd7b8654e06cc47783fa3ba233c53"
+        },
+        {
+          "ref": "ans_17692b8d-1c1b-4d3d-a432-7406e3a89f9a",
+          "keyword": "key_42c08ec2-0cf6-4217-8e71-bde7a859c222",
+          "answer": "En un solo mensaje, indique que desea agregar a tu mesa",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "c65c8eb40f7f4fa3ba6b3c10cfc17b95"
+        },
+        {
+          "ref": "key_382258b9-0a40-464e-93f7-74e17a3b37a5",
+          "keyword": "4",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "fc09f52170be47fcb14a1cee9c5d3c52"
+        },
+        {
+          "ref": "ans_5ba6f743-0e79-467f-912c-5155e509f848",
+          "keyword": "key_382258b9-0a40-464e-93f7-74e17a3b37a5",
+          "answer": "El mozo ya fue notificado, a la brevedad se acercara a la mesa",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "fce6fbb8081f3875ad21913a61bc2411"
+        },
+        {
+          "ref": "key_ede1101f-20db-46a8-8e86-00ae50338ffa",
+          "keyword": "5",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "660d6f380cd3d2aa67431f161ba4eccf"
+        },
+        {
+          "ref": "ans_015af67d-e35f-418f-ba5a-1571e78edcff",
+          "keyword": "key_ede1101f-20db-46a8-8e86-00ae50338ffa",
+          "answer": "A la brevedad el mozo llevará la cuenta a la mesa",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "711eaaa9ecda1cab68e37f7951b27412"
+        },
+        {
+          "ref": "ans_bcad340c-09de-444b-82df-5b00f8ee0438",
+          "keyword": "ans_015af67d-e35f-418f-ba5a-1571e78edcff",
+          "answer": "Si además desea recibir una foto de la misma envie *foto*\nDe lo contrario envie *salir*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "f3418a80f8307e45e7df31afa3ce928e"
+        },
+        {
+          "ref": "key_c1564961-987c-467c-98d6-ee1100986441",
+          "keyword": "6",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "ae093091123de34d8570657f16bd7343"
+        },
+        {
+          "ref": "ans_a85a19bf-2480-43cb-86b5-d5b263560718",
+          "keyword": "key_c1564961-987c-467c-98d6-ee1100986441",
+          "answer": "Gracias por comer en Pizzeria Popular y usar vMozo.\nEspero que disfrutaras la experiencia.\nTu opinion nos importa muchisimo para mejorar el servicio y seguir creciendo\nSi deseas dejarnos un comentario y contestar unas breves preguntas escribe \"SI\" para continuar.",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "28be65ccba5ae9ddb054cf4eae8e8d47"
+        },
+        {
+          "ref": "ans_607b768b-e096-4c23-bc6b-4c1baac5a701",
+          "keyword": "ans_a85a19bf-2480-43cb-86b5-d5b263560718",
+          "answer": "¿Como calificarías de 1 a 10 tu experiencia en Pizzeria Popular ?",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "be6e40ebf04d7ae687606f46512aa256"
+        },
+        {
+          "ref": "ans_f9373d6b-a526-4ffb-a82a-2736c0f454fb",
+          "keyword": "ans_607b768b-e096-4c23-bc6b-4c1baac5a701",
+          "answer": "¿Como calificarías de 1 a 10 la atención de vMozo ?",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "9b8c04b51eca0527ef9c7a6da0ea58ab"
+        },
+        {
+          "ref": "ans_6efa0bde-aabc-47cb-95eb-fab2ea5e9b35",
+          "keyword": "ans_f9373d6b-a526-4ffb-a82a-2736c0f454fb",
+          "answer": "Dejanos un comentario sobre que cambiarias para mejorar tu experiencia",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "059bfe96aca9423e43668999c2ef67b1"
+        },
+        {
+          "ref": "ans_574d92a4-5c66-4f9c-b52a-12d4540505be",
+          "keyword": "ans_6efa0bde-aabc-47cb-95eb-fab2ea5e9b35",
+          "answer": "Si te gustaria recibir informacion de Pizzeria Popular como promociones, descuentos o eventos especiales, dejanos un correo. \nDe lo contrario envia \"NO\"",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "d3d5a4ee080998bbf21ee23fcb69c363"
+        },
+        {
+          "ref": "ans_dfc80480-1927-440d-97c5-51125c750a32",
+          "keyword": "ans_574d92a4-5c66-4f9c-b52a-12d4540505be",
+          "answer": "Muchas gracias por tu devolucion\nEsperamos poder atenderte nuevamente pronto\nEscriba vMozo para volver a comenzar",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "b07780f0eaf2871979f6142f3c936c91"
+        }
+      ],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "f73bc3acbcfe5760a0845f2b7f745165",
+    "from": "5493515924253"
+  },
+  {
+    "ref": "85c14478-5400-484f-a2ac-cc35d98cc64c",
+    "answer": "1. Ver el Menú\n2. Ordenar\n3. Agregar algo a mi pedido\n4. Llamar al mozo\n5. Pedir la cuenta\n6. Salir",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false
+    },
+    "from": "5493515924253",
+    "refSerialize": "b24d89de70e049ed65d07b8901ef4325"
+  },
+  {
+    "ref": "346d3149-934e-4347-be26-3b7dd8b3b03c",
+    "keyword": "f73bc3acbcfe5760a0845f2b7f745165",
     "answer": "6",
     "options": {},
-    "from": "5493512275549",
+    "from": "5493515924253",
     "refSerialize": "a7c49181ef3046656ea8ab317c4adca7"
   },
   {
-    "ref": "ans_381b3ba5-e863-4d96-81d6-1edbdea330c5",
-    "keyword": "key_1b803c49-b855-4bf0-af95-c7ee3d14bdf6",
+    "ref": "ans_a85a19bf-2480-43cb-86b5-d5b263560718",
+    "keyword": "key_c1564961-987c-467c-98d6-ee1100986441",
     "answer": "Gracias por comer en Pizzeria Popular y usar vMozo.\nEspero que disfrutaras la experiencia.\nTu opinion nos importa muchisimo para mejorar el servicio y seguir creciendo\nSi deseas dejarnos un comentario y contestar unas breves preguntas escribe \"SI\" para continuar.",
     "options": {
       "media": null,
@@ -993,20 +1571,401 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "8b7af60a6119e7c70d485978157fa898",
-    "from": "5493512275549"
+    "refSerialize": "28be65ccba5ae9ddb054cf4eae8e8d47",
+    "from": "5493515924253"
   },
   {
-    "ref": "8c0b0c8d-7f9d-4e2c-9ce4-9b1553877258",
-    "keyword": "8b7af60a6119e7c70d485978157fa898",
-    "answer": "si",
+    "ref": "59d49149-9e74-4375-9f37-c29b65aba55b",
+    "keyword": "28be65ccba5ae9ddb054cf4eae8e8d47",
+    "answer": "no",
     "options": {},
-    "from": "5493512275549",
-    "refSerialize": "715ca38ec28b8dabb30e75e511c57a3a"
+    "from": "5493515924253",
+    "refSerialize": "196d1c4297b3cc409a816659f65c2beb"
   },
   {
-    "ref": "ans_42b87f69-a594-4ae5-82be-6cf35231e6e6",
-    "keyword": "ans_381b3ba5-e863-4d96-81d6-1edbdea330c5",
+    "ref": "c406ce78-5af2-4fb0-b08a-c879c2adc4f4",
+    "keyword": "196d1c4297b3cc409a816659f65c2beb",
+    "answer": "vMozo",
+    "options": {},
+    "from": "5493515924253",
+    "refSerialize": "761d53032b868ce56bbe966406b965a3"
+  },
+  {
+    "ref": "ans_e0d74015-26d9-4df0-bc43-1f9715790b74",
+    "keyword": "key_859d5253-90db-4718-b26a-2caad3f6a437",
+    "answer": "Hola bienvenido a Pizzeria Popular\nSoy vMozo su mozo virtual.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "7e1d4a97001977ba323195dc707ad611",
+    "from": "5493515924253"
+  },
+  {
+    "ref": "ans_fde991c7-d1e5-4fb3-82ea-63857ce867ea",
+    "keyword": "ans_e0d74015-26d9-4df0-bc43-1f9715790b74",
+    "answer": "Elija la opción deseada",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [
+        {
+          "ref": "key_957a114f-65d1-49ce-b00c-3667aeebec96",
+          "keyword": "1",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "065e0005da6e5c278a53691e53b48955"
+        },
+        {
+          "ref": "ans_3f3a8fe0-14b2-4a2a-b771-65a4ad6d5141",
+          "keyword": "key_957a114f-65d1-49ce-b00c-3667aeebec96",
+          "answer": "Aca te dejo la carta",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "a1ef8f9a50d2f66845d178a0dbe8f889"
+        },
+        {
+          "ref": "ans_fc552e44-277e-4668-88f7-90f27ab62dc6",
+          "keyword": "ans_3f3a8fe0-14b2-4a2a-b771-65a4ad6d5141",
+          "answer": "Si desea realizar el pedido de su mesa envie \"pedir\" o para salir envie \"salir\"",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [
+              {
+                "ref": "key_2689c13b-c29d-4b6f-a644-810c6cc7a06d",
+                "keyword": [
+                  "2",
+                  "pedir"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "b64e4feda41f5d78c023d65fbd2b4127"
+              },
+              {
+                "ref": "ans_9e7b8628-8f27-4fe1-a4f7-73c8b22b67df",
+                "keyword": "key_2689c13b-c29d-4b6f-a644-810c6cc7a06d",
+                "answer": "¿Cuántas personas van a ordenar ?",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": true,
+                  "child": null,
+                  "delay": 0,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "823e24136aacd4886bcd3dfe36a9aa14"
+              }
+            ],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "b2f7a678170abbf7ea5b223b37e7a000"
+        },
+        {
+          "ref": "key_2689c13b-c29d-4b6f-a644-810c6cc7a06d",
+          "keyword": [
+            "2",
+            "pedir"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "b64e4feda41f5d78c023d65fbd2b4127"
+        },
+        {
+          "ref": "ans_9e7b8628-8f27-4fe1-a4f7-73c8b22b67df",
+          "keyword": "key_2689c13b-c29d-4b6f-a644-810c6cc7a06d",
+          "answer": "¿Cuántas personas van a ordenar ?",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "823e24136aacd4886bcd3dfe36a9aa14"
+        },
+        {
+          "ref": "key_42c08ec2-0cf6-4217-8e71-bde7a859c222",
+          "keyword": "3",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "741cd7b8654e06cc47783fa3ba233c53"
+        },
+        {
+          "ref": "ans_17692b8d-1c1b-4d3d-a432-7406e3a89f9a",
+          "keyword": "key_42c08ec2-0cf6-4217-8e71-bde7a859c222",
+          "answer": "En un solo mensaje, indique que desea agregar a tu mesa",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "c65c8eb40f7f4fa3ba6b3c10cfc17b95"
+        },
+        {
+          "ref": "key_382258b9-0a40-464e-93f7-74e17a3b37a5",
+          "keyword": "4",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "fc09f52170be47fcb14a1cee9c5d3c52"
+        },
+        {
+          "ref": "ans_5ba6f743-0e79-467f-912c-5155e509f848",
+          "keyword": "key_382258b9-0a40-464e-93f7-74e17a3b37a5",
+          "answer": "El mozo ya fue notificado, a la brevedad se acercara a la mesa",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "fce6fbb8081f3875ad21913a61bc2411"
+        },
+        {
+          "ref": "key_ede1101f-20db-46a8-8e86-00ae50338ffa",
+          "keyword": "5",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "660d6f380cd3d2aa67431f161ba4eccf"
+        },
+        {
+          "ref": "ans_015af67d-e35f-418f-ba5a-1571e78edcff",
+          "keyword": "key_ede1101f-20db-46a8-8e86-00ae50338ffa",
+          "answer": "A la brevedad el mozo llevará la cuenta a la mesa",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "711eaaa9ecda1cab68e37f7951b27412"
+        },
+        {
+          "ref": "ans_bcad340c-09de-444b-82df-5b00f8ee0438",
+          "keyword": "ans_015af67d-e35f-418f-ba5a-1571e78edcff",
+          "answer": "Si además desea recibir una foto de la misma envie *foto*\nDe lo contrario envie *salir*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "f3418a80f8307e45e7df31afa3ce928e"
+        },
+        {
+          "ref": "key_c1564961-987c-467c-98d6-ee1100986441",
+          "keyword": "6",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "ae093091123de34d8570657f16bd7343"
+        },
+        {
+          "ref": "ans_a85a19bf-2480-43cb-86b5-d5b263560718",
+          "keyword": "key_c1564961-987c-467c-98d6-ee1100986441",
+          "answer": "Gracias por comer en Pizzeria Popular y usar vMozo.\nEspero que disfrutaras la experiencia.\nTu opinion nos importa muchisimo para mejorar el servicio y seguir creciendo\nSi deseas dejarnos un comentario y contestar unas breves preguntas escribe \"SI\" para continuar.",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "28be65ccba5ae9ddb054cf4eae8e8d47"
+        },
+        {
+          "ref": "ans_607b768b-e096-4c23-bc6b-4c1baac5a701",
+          "keyword": "ans_a85a19bf-2480-43cb-86b5-d5b263560718",
+          "answer": "¿Como calificarías de 1 a 10 tu experiencia en Pizzeria Popular ?",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "be6e40ebf04d7ae687606f46512aa256"
+        },
+        {
+          "ref": "ans_f9373d6b-a526-4ffb-a82a-2736c0f454fb",
+          "keyword": "ans_607b768b-e096-4c23-bc6b-4c1baac5a701",
+          "answer": "¿Como calificarías de 1 a 10 la atención de vMozo ?",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "9b8c04b51eca0527ef9c7a6da0ea58ab"
+        },
+        {
+          "ref": "ans_6efa0bde-aabc-47cb-95eb-fab2ea5e9b35",
+          "keyword": "ans_f9373d6b-a526-4ffb-a82a-2736c0f454fb",
+          "answer": "Dejanos un comentario sobre que cambiarias para mejorar tu experiencia",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "059bfe96aca9423e43668999c2ef67b1"
+        },
+        {
+          "ref": "ans_574d92a4-5c66-4f9c-b52a-12d4540505be",
+          "keyword": "ans_6efa0bde-aabc-47cb-95eb-fab2ea5e9b35",
+          "answer": "Si te gustaria recibir informacion de Pizzeria Popular como promociones, descuentos o eventos especiales, dejanos un correo. \nDe lo contrario envia \"NO\"",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "d3d5a4ee080998bbf21ee23fcb69c363"
+        },
+        {
+          "ref": "ans_dfc80480-1927-440d-97c5-51125c750a32",
+          "keyword": "ans_574d92a4-5c66-4f9c-b52a-12d4540505be",
+          "answer": "Muchas gracias por tu devolucion\nEsperamos poder atenderte nuevamente pronto\nEscriba vMozo para volver a comenzar",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "b07780f0eaf2871979f6142f3c936c91"
+        }
+      ],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "f73bc3acbcfe5760a0845f2b7f745165",
+    "from": "5493515924253"
+  },
+  {
+    "ref": "6604d33e-c81c-4941-9dcf-f208107792a0",
+    "answer": "1. Ver el Menú\n2. Ordenar\n3. Agregar algo a mi pedido\n4. Llamar al mozo\n5. Pedir la cuenta\n6. Salir",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false
+    },
+    "from": "5493515924253",
+    "refSerialize": "b24d89de70e049ed65d07b8901ef4325"
+  },
+  {
+    "ref": "11379db9-8bbb-4472-af15-9231f73a675f",
+    "keyword": "f73bc3acbcfe5760a0845f2b7f745165",
+    "answer": "6",
+    "options": {},
+    "from": "5493515924253",
+    "refSerialize": "a7c49181ef3046656ea8ab317c4adca7"
+  },
+  {
+    "ref": "ans_a85a19bf-2480-43cb-86b5-d5b263560718",
+    "keyword": "key_c1564961-987c-467c-98d6-ee1100986441",
+    "answer": "Gracias por comer en Pizzeria Popular y usar vMozo.\nEspero que disfrutaras la experiencia.\nTu opinion nos importa muchisimo para mejorar el servicio y seguir creciendo\nSi deseas dejarnos un comentario y contestar unas breves preguntas escribe \"SI\" para continuar.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "28be65ccba5ae9ddb054cf4eae8e8d47",
+    "from": "5493515924253"
+  },
+  {
+    "ref": "bc69f3ce-0c22-4567-84ad-06a0c1f26da5",
+    "keyword": "28be65ccba5ae9ddb054cf4eae8e8d47",
+    "answer": "SI",
+    "options": {},
+    "from": "5493515924253",
+    "refSerialize": "a3ce9d744b2d0b3ec82c43ebfa951790"
+  },
+  {
+    "ref": "ans_607b768b-e096-4c23-bc6b-4c1baac5a701",
+    "keyword": "ans_a85a19bf-2480-43cb-86b5-d5b263560718",
     "answer": "¿Como calificarías de 1 a 10 tu experiencia en Pizzeria Popular ?",
     "options": {
       "media": null,
@@ -1018,20 +1977,20 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "221f55edaa6e6ba89526ec13abba1908",
-    "from": "5493512275549"
+    "refSerialize": "be6e40ebf04d7ae687606f46512aa256",
+    "from": "5493515924253"
   },
   {
-    "ref": "97b8ed07-ee0b-4090-b8ed-3bf6e6f6ca53",
-    "keyword": "221f55edaa6e6ba89526ec13abba1908",
-    "answer": "1",
+    "ref": "ddb20992-382f-4a3b-9602-222a12b39584",
+    "keyword": "be6e40ebf04d7ae687606f46512aa256",
+    "answer": "10",
     "options": {},
-    "from": "5493512275549",
-    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
+    "from": "5493515924253",
+    "refSerialize": "2e513caa004a660c57950b9691449f17"
   },
   {
-    "ref": "ans_5e84187b-f521-4b38-b9f3-298429873848",
-    "keyword": "ans_42b87f69-a594-4ae5-82be-6cf35231e6e6",
+    "ref": "ans_f9373d6b-a526-4ffb-a82a-2736c0f454fb",
+    "keyword": "ans_607b768b-e096-4c23-bc6b-4c1baac5a701",
     "answer": "¿Como calificarías de 1 a 10 la atención de vMozo ?",
     "options": {
       "media": null,
@@ -1043,20 +2002,20 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "f598fdf9b015ff9bb920b84a1e654181",
-    "from": "5493512275549"
+    "refSerialize": "9b8c04b51eca0527ef9c7a6da0ea58ab",
+    "from": "5493515924253"
   },
   {
-    "ref": "7a620114-b2b1-4259-af97-af6ad99e0352",
-    "keyword": "f598fdf9b015ff9bb920b84a1e654181",
-    "answer": "1",
+    "ref": "36d4b5f1-d1b8-4a9a-83f1-b9b85755c2fc",
+    "keyword": "9b8c04b51eca0527ef9c7a6da0ea58ab",
+    "answer": "10",
     "options": {},
-    "from": "5493512275549",
-    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
+    "from": "5493515924253",
+    "refSerialize": "2e513caa004a660c57950b9691449f17"
   },
   {
-    "ref": "ans_6810c56a-1267-406f-a79a-56ec6e9da7af",
-    "keyword": "ans_5e84187b-f521-4b38-b9f3-298429873848",
+    "ref": "ans_6efa0bde-aabc-47cb-95eb-fab2ea5e9b35",
+    "keyword": "ans_f9373d6b-a526-4ffb-a82a-2736c0f454fb",
     "answer": "Dejanos un comentario sobre que cambiarias para mejorar tu experiencia",
     "options": {
       "media": null,
@@ -1068,20 +2027,20 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "1d57520bc950b23ba3eda02dd2d7f3f3",
-    "from": "5493512275549"
+    "refSerialize": "059bfe96aca9423e43668999c2ef67b1",
+    "from": "5493515924253"
   },
   {
-    "ref": "5f13d3ce-ab76-4145-a289-407b8ca21263",
-    "keyword": "1d57520bc950b23ba3eda02dd2d7f3f3",
-    "answer": "1",
+    "ref": "910c3485-49a1-4aab-a792-0da41eb71968",
+    "keyword": "059bfe96aca9423e43668999c2ef67b1",
+    "answer": "asd",
     "options": {},
-    "from": "5493512275549",
-    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
+    "from": "5493515924253",
+    "refSerialize": "6988c0490446f551a44ac1d6ae1ba6a3"
   },
   {
-    "ref": "ans_f1c6ce8f-7c4c-4cd5-bdaa-7f5805160e78",
-    "keyword": "ans_6810c56a-1267-406f-a79a-56ec6e9da7af",
+    "ref": "ans_574d92a4-5c66-4f9c-b52a-12d4540505be",
+    "keyword": "ans_6efa0bde-aabc-47cb-95eb-fab2ea5e9b35",
     "answer": "Si te gustaria recibir informacion de Pizzeria Popular como promociones, descuentos o eventos especiales, dejanos un correo. \nDe lo contrario envia \"NO\"",
     "options": {
       "media": null,
@@ -1093,20 +2052,20 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "4ccfe5aa86307ab64885a4930cf95120",
-    "from": "5493512275549"
+    "refSerialize": "d3d5a4ee080998bbf21ee23fcb69c363",
+    "from": "5493515924253"
   },
   {
-    "ref": "27733a5c-fcbd-4b74-892a-35ce8551fc11",
-    "keyword": "4ccfe5aa86307ab64885a4930cf95120",
-    "answer": "1",
+    "ref": "9b2491ec-5b2e-4fee-a1f2-67da1b58ce74",
+    "keyword": "d3d5a4ee080998bbf21ee23fcb69c363",
+    "answer": "no",
     "options": {},
-    "from": "5493512275549",
-    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
+    "from": "5493515924253",
+    "refSerialize": "196d1c4297b3cc409a816659f65c2beb"
   },
   {
-    "ref": "ans_191b6f0c-9000-4fe6-9392-fc2bf90f7f8c",
-    "keyword": "ans_f1c6ce8f-7c4c-4cd5-bdaa-7f5805160e78",
+    "ref": "ans_dfc80480-1927-440d-97c5-51125c750a32",
+    "keyword": "ans_574d92a4-5c66-4f9c-b52a-12d4540505be",
     "answer": "Muchas gracias por tu devolucion\nEsperamos poder atenderte nuevamente pronto\nEscriba vMozo para volver a comenzar",
     "options": {
       "media": null,
@@ -1118,7 +2077,7 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "83c9de72161abdf908be20311c8d12f4",
-    "from": "5493512275549"
+    "refSerialize": "b07780f0eaf2871979f6142f3c936c91",
+    "from": "5493515924253"
   }
 ]

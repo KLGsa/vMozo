@@ -1,21 +1,38 @@
 const { addKeyword } = require('@bot-whatsapp/bot')
 
-const {pedirCuenta} = require('./auxPedidos.js')
+const {pedirCuenta,fotoCuenta} = require('./auxPedidos.js')
+
+const {respuesta} = require('./auxMensajes.js')
 
 const flujoCuenta = addKeyword('5')
-.addAnswer('El mozo ya fue notificado, a la brevedad le llevara la cuenta a la mesa',
+.addAnswer('A la brevedad el mozo llevará la cuenta a la mesa',
 {
 },
 async (ctx,{provider}) => {
 
     await pedirCuenta(ctx.from,provider)
 
-    const prov = provider.getInstance()
+})
+.addAnswer('Si además desea recibir una foto de la misma envie *foto*\nDe lo contrario envie *salir*',
+{
+    capture:true
+},
+async (ctx,{provider}) => {
 
-    const telefono = ctx.from + '@s.whatsapp.net'
+    if(ctx.body.toLowerCase() === "foto"){
 
-    await prov.sendMessage(telefono,{text: "Escriba vMozo para volver a comenzar"})
+        await fotoCuenta(ctx.from,provider)
+
+        await respuesta(ctx.from,provider,'En instantes recibirá una foto de la cuenta\nEscriba *vMozo* para volver a comenzar')
+
+    }else{
+
+        await respuesta(ctx.from,provider,'Escriba *vMozo* para volver a comenzar')
+
+    }
 
 })
+
+
 
 module.exports = flujoCuenta

@@ -7,7 +7,12 @@ const flujoAgregar = addKeyword('3')
 {
     capture: true
 },
-async (ctx,{provider}) => {
+async (ctx,{provider,fallBack}) => {
+
+    if(!ctx.message.hasOwnProperty('extendedTextMessage') && !ctx.message.hasOwnProperty('conversation')){
+        
+        return fallBack("Este campo admite solo texto")
+    }
 
     addProps(ctx.from,{agregar: ctx.body})
     await agregarItems(ctx.from,provider)

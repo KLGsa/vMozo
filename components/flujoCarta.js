@@ -20,12 +20,13 @@ async (ctx, {provider}) => {
 },
 async (ctx,{provider,endFlow}) => {
 
-     if(ctx.body === "salir"){
+    if(ctx.body.toLowerCase() !== "pedir"){
         const prov = provider.getInstance()
         const telefono = ctx.from + '@s.whatsapp.net'
-        await prov.sendMessage(telefono,{text: "Escribe vMozo para volver a comenzar."})
+        await prov.sendMessage(telefono,{text: "Escribe *vMozo* para volver a comenzar."})
         return endFlow()
-    } 
+    }
+
 },[flujoPedido])
 
 module.exports = flujoCarta
