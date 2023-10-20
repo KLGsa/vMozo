@@ -94,7 +94,7 @@ const flowEnviarFoto = addKeyword(['enviar cuenta'])
     // Obtener la URL local del archivo
     const localFilePath = `./${filename}`;
 
-    const telefono = ctx.from + '@s.whatsapp.net';
+    const telefono = telCliente + '@s.whatsapp.net';
 
     // Utilizar la URL local en la función sendMedia
     await provider.sendMedia(telefono, localFilePath, 'Aqui tiene la cuenta, a la brevedad el mozo le acercara su comprobante fisico\nGracias por comer en Pizzeria Popular y usar vMozo.');
